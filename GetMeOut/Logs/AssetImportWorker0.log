@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.2/staging' branch; Version is '2021.2.3f1 (32358a8527b4) revision 3290506'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1415; Version 2009; 64bit' Language: 'en' Physical Memory: 16230 MB
+OS: 'Windows 10 Home; OS build 19043.1415; Version 2009; 64bit' Language: 'en' Physical Memory: 16343 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.2.3f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/GitRepos/Project-Hybrid/GetMeOut
+C:/Users/erikd/OneDrive/Documents/Git/Project_hybrid/GetMeOut
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62483
-Successfully changed project path to: D:/GitRepos/Project-Hybrid/GetMeOut
-D:/GitRepos/Project-Hybrid/GetMeOut
+64303
+Successfully changed project path to: C:/Users/erikd/OneDrive/Documents/Git/Project_hybrid/GetMeOut
+C:/Users/erikd/OneDrive/Documents/Git/Project_hybrid/GetMeOut
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,105 +47,105 @@ D:/GitRepos/Project-Hybrid/GetMeOut
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 84.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 77.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.3f1 (32358a8527b4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/GitRepos/Project-Hybrid/GetMeOut/Assets
+[Subsystems] Discovering subsystems at path C:/Users/erikd/OneDrive/Documents/Git/Project_hybrid/GetMeOut/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
     Vendor:   NVIDIA
-    VRAM:     6052 MB
-    Driver:   27.21.14.5671
+    VRAM:     8043 MB
+    Driver:   30.0.14.9709
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010228 seconds.
+Registered in 0.011363 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 79.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 90.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.713 seconds
+- Completed reload, in  0.745 seconds
 Domain Reload Profiling:
-	ReloadAssembly (714ms)
-		BeginReloadAssembly (98ms)
+	ReloadAssembly (745ms)
+		BeginReloadAssembly (108ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (518ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (544ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (120ms)
+			SetupTypeCache (119ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (301ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (336ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (80ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (143ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.135472 seconds.
+Registered in 0.010428 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GitRepos\Project-Hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\GitRepos\Project-Hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\erikd\OneDrive\Documents\Git\Project_hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\erikd\OneDrive\Documents\Git\Project_hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.387 seconds
+- Completed reload, in  1.187 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1388ms)
-		BeginReloadAssembly (219ms)
+	ReloadAssembly (1187ms)
+		BeginReloadAssembly (193ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1046ms)
-			LoadAssemblies (96ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (885ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (292ms)
+			SetupTypeCache (254ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (468ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (377ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (318ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3316 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (56.3 KB). Loaded Objects now: 3775.
-Memory consumption went from 119.7 MB to 119.7 MB.
-Total: 3.426900 ms (FindLiveObjects: 0.300200 ms CreateObjectMapping: 0.259400 ms MarkObjects: 2.791400 ms  DeleteObjects: 0.074900 ms)
+Unloading 24 unused Assets / (55.8 KB). Loaded Objects now: 3775.
+Memory consumption went from 119.8 MB to 119.8 MB.
+Total: 3.866200 ms (FindLiveObjects: 0.380800 ms CreateObjectMapping: 0.257900 ms MarkObjects: 3.104700 ms  DeleteObjects: 0.121700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,275 +159,607 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 78662.373068 seconds.
-  path: Assets/Art/Models/Monster.fbx
-  artifactKey: Guid(ffce3789ebfd67e49a40fc6482231a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Monster.fbx using Guid(ffce3789ebfd67e49a40fc6482231a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0f9224cce4109dce63d6874dc04698') in 0.618816 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 39.515475 seconds.
-  path: Assets/Art/Models/Monster.fbx
-  artifactKey: Guid(ffce3789ebfd67e49a40fc6482231a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Monster.fbx using Guid(ffce3789ebfd67e49a40fc6482231a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81062508c2774e358b5b609df1d93886') in 0.105004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 52.820087 seconds.
-  path: Assets/Art/Models/Monster.fbx
-  artifactKey: Guid(ffce3789ebfd67e49a40fc6482231a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Monster.fbx using Guid(ffce3789ebfd67e49a40fc6482231a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e941bf77b116566a0921a2eb2414b7dd') in 0.089495 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 37.935085 seconds.
-  path: Assets/Art/Models/Monster.fbx
-  artifactKey: Guid(ffce3789ebfd67e49a40fc6482231a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Monster.fbx using Guid(ffce3789ebfd67e49a40fc6482231a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c8904af4ba278e1b104f2427991fdf') in 0.104747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 92.695058 seconds.
-  path: Assets/Art/Models/Monster.fbx
-  artifactKey: Guid(ffce3789ebfd67e49a40fc6482231a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Monster.fbx using Guid(ffce3789ebfd67e49a40fc6482231a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb03608988789ebff4bc1371c41571fd') in 0.101831 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 75.112425 seconds.
-  path: Assets/Art/Models/Monster.fbx
-  artifactKey: Guid(ffce3789ebfd67e49a40fc6482231a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Monster.fbx using Guid(ffce3789ebfd67e49a40fc6482231a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb740d467d05d55dfe2d93e100f9eca') in 0.093970 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 98.550043 seconds.
-  path: Assets/Art/Models/Monster.fbx
-  artifactKey: Guid(ffce3789ebfd67e49a40fc6482231a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Monster.fbx using Guid(ffce3789ebfd67e49a40fc6482231a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4057677acd5b295ee5d6e5b2898032f') in 0.112045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 91.247525 seconds.
-  path: Assets/Art/Materials/MonsterSkinn.mat
-  artifactKey: Guid(c66ad34ba8970a14ebb731cedfc65dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/MonsterSkinn.mat using Guid(c66ad34ba8970a14ebb731cedfc65dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17c1581404998e055c13a8ed3a4d2a5') in 0.161082 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.412180 seconds.
-  path: Assets/Art/Materials/MonsterTeeth.mat
-  artifactKey: Guid(e45a89b4b9e54094f984562e10810f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/MonsterTeeth.mat using Guid(e45a89b4b9e54094f984562e10810f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8ffaa8a15bc25933636137a8dda31e') in 0.079113 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.767135 seconds.
-  path: Assets/Art/Materials/MonsterEyes.mat
-  artifactKey: Guid(d8227fa06db68be4ba1077404c985534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/MonsterEyes.mat using Guid(d8227fa06db68be4ba1077404c985534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa6f2acdc7c46e31306f9c3a277ba33') in 0.007598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.633353 seconds.
-  path: Assets/Art/Materials/MonsterTounge.mat
-  artifactKey: Guid(94de8301b959db64f8fecebf3515df4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/MonsterTounge.mat using Guid(94de8301b959db64f8fecebf3515df4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c71978f963adc2d00ada0f59021ab8a') in 0.095060 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 54.124868 seconds.
-  path: Assets/Art/Materials/CREACH_Material.001_BaseColor.png
-  artifactKey: Guid(c6c3f76da50520d4b86f376fcff0ea1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/CREACH_Material.001_BaseColor.png using Guid(c6c3f76da50520d4b86f376fcff0ea1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8369bbe151d3ce30a32d26936f3f479d') in 0.100062 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Art/Materials/CREACH_Material.001_Roughness.png
-  artifactKey: Guid(fdbe79385c0eb9e44a372b24af19f9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/CREACH_Material.001_Roughness.png using Guid(fdbe79385c0eb9e44a372b24af19f9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2aec3a0c03659c69804aca95c83f1b') in 0.022423 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Art/Materials/CREACH_Material.001_Normal.png
-  artifactKey: Guid(a866973044c47f4439bcc9d29d09cce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/CREACH_Material.001_Normal.png using Guid(a866973044c47f4439bcc9d29d09cce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c61fded3262f54fe78898daffa2ad82') in 0.013456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 118.311573 seconds.
-  path: Assets/Art/Materials/CREACH_Material.001_Normal.png
-  artifactKey: Guid(68b98abc9ad16a8409ef64661c255075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/CREACH_Material.001_Normal.png using Guid(68b98abc9ad16a8409ef64661c255075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c543ec776f09dd700ace92d28e1b9cf') in 0.011789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 47.314624 seconds.
-  path: Assets/Art/Materials/CREACH_Material.001_Height.png
-  artifactKey: Guid(2431980e21e4c694490ea59c30b4dcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/CREACH_Material.001_Height.png using Guid(2431980e21e4c694490ea59c30b4dcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283269726304d89c11ddf29df0ce4aa5') in 0.010351 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Art/Materials/CREACH_Material.001_Roughness.png
-  artifactKey: Guid(765cbab5928ea0146893aea8c581b357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/CREACH_Material.001_Roughness.png using Guid(765cbab5928ea0146893aea8c581b357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0edec58b167c3ec32ee48822498a6c') in 0.009163 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 205.327241 seconds.
-  path: Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/BuggyBuddy/UI/BuggyUI/blob.png
-  artifactKey: Guid(34052ff677e1e0040bfdde61332fac2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/BuggyBuddy/UI/BuggyUI/blob.png using Guid(34052ff677e1e0040bfdde61332fac2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33da011eea906f9f149e5266f5d6efd') in 0.155065 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/Textures/fabric.png
-  artifactKey: Guid(f38d8e4ac87f9894fae9b325586a30c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/Textures/fabric.png using Guid(f38d8e4ac87f9894fae9b325586a30c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74987bf5fcdbec43ad490d829415c9b') in 0.137770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/JoeJeff/Textures/JJHat_JJHat_MetallicSmoothness.png
-  artifactKey: Guid(dac44591bd81b3a42903ba2e28b8de55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/JoeJeff/Textures/JJHat_JJHat_MetallicSmoothness.png using Guid(dac44591bd81b3a42903ba2e28b8de55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d39752cdfe15e6f7d1656c9409b0757') in 0.091834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/SteamVRAssets/SteamVR/Input/Editor/Resources/Icons/handmask_Index.png
-  artifactKey: Guid(2c4294febb4dfe54d98c37083da7a639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/Input/Editor/Resources/Icons/handmask_Index.png using Guid(2c4294febb4dfe54d98c37083da7a639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177f9f19612c9794887a1e3bc1f5764f') in 0.105912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/JoeJeff/Textures/JJHat_JJHat_AlbedoTransparency.png
-  artifactKey: Guid(b7b3dd92428b96e4fa1341587cfc19f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/JoeJeff/Textures/JJHat_JJHat_AlbedoTransparency.png using Guid(b7b3dd92428b96e4fa1341587cfc19f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85352b041a2d8616183e53693cb830a') in 0.121252 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/SteamVRAssets/SteamVR/Input/Editor/Resources/Icons/HandRightIcon.png
-  artifactKey: Guid(985915d4db439114797fb72a46387d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/Input/Editor/Resources/Icons/HandRightIcon.png using Guid(985915d4db439114797fb72a46387d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47afac476676ba58d8467545d054a5e') in 0.020471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Textures/controlerbuggy_LO_BuggyController_Normal.png
-  artifactKey: Guid(d66d01bd1e0702a4bbfa207820fb2fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Textures/controlerbuggy_LO_BuggyController_Normal.png using Guid(d66d01bd1e0702a4bbfa207820fb2fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d76370d6cb966b71b7aabb17db39a46') in 0.191173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Textures/Buggy_LO_Buggy_AlbedoTransparency.png
-  artifactKey: Guid(2c2859d9aa48f714b84eb25874ad24e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Textures/Buggy_LO_Buggy_AlbedoTransparency.png using Guid(2c2859d9aa48f714b84eb25874ad24e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d19ea4f85a32412625969afb2b77e4') in 0.140119 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Textures/controlerbuggy_LO_BuggyController_Emission.png
-  artifactKey: Guid(4e003c622c1d9a6408f4d90438aa389a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Textures/controlerbuggy_LO_BuggyController_Emission.png using Guid(4e003c622c1d9a6408f4d90438aa389a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c44fa2245af88633c9aad984e5ae1bf') in 0.008954 seconds 
+  Time since last request: 1306340.130437 seconds.
+  path: Assets/Art/Models/SmallRoom.fbx
+  artifactKey: Guid(36b7916f402e5004c81f60108af06cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/SmallRoom.fbx using Guid(36b7916f402e5004c81f60108af06cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc0d56557cbf2720ca3a006125abf7a') in 0.202628 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/SteamVRAssets/SteamVR/InteractionSystem/Longbow/Textures/ArrowNormal.png
-  artifactKey: Guid(5d44bb3b4714e2b4da3b93d3c921a1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/InteractionSystem/Longbow/Textures/ArrowNormal.png using Guid(5d44bb3b4714e2b4da3b93d3c921a1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd007e6f3456baaaed54fc221c27bfc5') in 0.085615 seconds 
+  path: Assets/Art/Models
+  artifactKey: Guid(e3702bb86ba87e44ab40ca214492213e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models using Guid(e3702bb86ba87e44ab40ca214492213e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1cfd55e8b334097e75aaf2e1d1df15') in 0.003049 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/SteamVRAssets/SteamVR/InteractionSystem/Longbow/Textures/ArcheryWeebleTarget.png
-  artifactKey: Guid(b0b65ac2add33d04b9c6485a060c240a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/InteractionSystem/Longbow/Textures/ArcheryWeebleTarget.png using Guid(b0b65ac2add33d04b9c6485a060c240a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64aa62534b61c29d5057f3d75af5f12d') in 0.129574 seconds 
+  Time since last request: 0.000068 seconds.
+  path: Assets/Art/Models/Hallway.fbx
+  artifactKey: Guid(c155d805cf1cc85459453df537ae8ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Hallway.fbx using Guid(c155d805cf1cc85459453df537ae8ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0961ea0a9d1c189aaeeaac905ba56b46') in 0.025703 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Textures/Buggy_LO_Buggy_Normal.png
-  artifactKey: Guid(1c038cbe6dac00648b2b243005d40029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Textures/Buggy_LO_Buggy_Normal.png using Guid(1c038cbe6dac00648b2b243005d40029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cfdca63de06fe9b12babf618494ce10') in 0.113206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/JoeJeff/Textures/JJHat_JJHat_Normal.png
-  artifactKey: Guid(90734498e62f9d14b891d73c93f13b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/JoeJeff/Textures/JJHat_JJHat_Normal.png using Guid(90734498e62f9d14b891d73c93f13b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2815ee05246424fc0dc1ebe917423b') in 0.113865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/Models/black_floor_metal_MET.png
-  artifactKey: Guid(566dfbaf1df81b340b9dc831f02883c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/Models/black_floor_metal_MET.png using Guid(566dfbaf1df81b340b9dc831f02883c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3edd4f0f8e173ac32498db46c5c1beaa') in 0.053158 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/Squishy/Textures/gooNoise.png
-  artifactKey: Guid(1250643187cd6e84f873b5efc80f049d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/Squishy/Textures/gooNoise.png using Guid(1250643187cd6e84f873b5efc80f049d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab80dc580ea228e9442c6e8c9e95987b') in 0.019585 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/SteamVRAssets/SteamVR/Input/Editor/Resources/Icons/handmask_Palm.png
-  artifactKey: Guid(e0a60ab44553a7f4ca994dec64351d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/Input/Editor/Resources/Icons/handmask_Palm.png using Guid(e0a60ab44553a7f4ca994dec64351d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c28eabc4e96ba64df93328727cdcef') in 0.033044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/SteamVRAssets/SteamVR/Input/Editor/Resources/Icons/BlenderBehaviour_Analog_Icon.png
-  artifactKey: Guid(aa701b1f3ae438e469d0ad4f122a0633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/Input/Editor/Resources/Icons/BlenderBehaviour_Analog_Icon.png using Guid(aa701b1f3ae438e469d0ad4f122a0633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ed73ba1b9aa8a57df78c187e9ec261') in 0.026030 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Textures/Buggy_LO_Buggy_MetallicSmoothness.png
-  artifactKey: Guid(a918aa40491fd4848ad52fc1accf4a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Textures/Buggy_LO_Buggy_MetallicSmoothness.png using Guid(a918aa40491fd4848ad52fc1accf4a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced4f02637409aad10a737dbaa00b503') in 0.102368 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/SteamVRAssets/SteamVR/InteractionSystem/Longbow/Textures/BalloonPop.png
-  artifactKey: Guid(210c1550425ed90419d73be09bde0486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/InteractionSystem/Longbow/Textures/BalloonPop.png using Guid(210c1550425ed90419d73be09bde0486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac10eb1a958a97e9c9b7d0dbf73d38a') in 0.032235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/SteamVRAssets/SteamVR/Input/Editor/Resources/Icons/handmask_Thumb.png
-  artifactKey: Guid(764dada5864e19440bb07e24e684e950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/Input/Editor/Resources/Icons/handmask_Thumb.png using Guid(764dada5864e19440bb07e24e684e950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6d294d6f1de7aeb745f8726b42ec6d') in 0.018979 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/JoeJeff/Textures/JoeJeff_Normal.png
-  artifactKey: Guid(1f0611183d16daa41803993dceeb6fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/JoeJeff/Textures/JoeJeff_Normal.png using Guid(1f0611183d16daa41803993dceeb6fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1476a17f637eafd9fa1a79efcc9a4f') in 0.168528 seconds 
+  Time since last request: 0.000070 seconds.
+  path: Assets/Art/Models/BigRoom.fbx
+  artifactKey: Guid(71f4724891909454da1185a3454d9207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/BigRoom.fbx using Guid(71f4724891909454da1185a3454d9207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0265e58a1ebe9ba672f862bb77e4dc79') in 0.030361 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/SteamVRAssets/SteamVR/Input/Editor/Resources/Icons/handmask_Pinky.png
-  artifactKey: Guid(4fb892aabe590ec4fb65a57a048a093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/Input/Editor/Resources/Icons/handmask_Pinky.png using Guid(4fb892aabe590ec4fb65a57a048a093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f15c5466b464cf6d741419e9b008497') in 0.015026 seconds 
+  path: Assets/Art/Models/Monster.fbx
+  artifactKey: Guid(ffce3789ebfd67e49a40fc6482231a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Monster.fbx using Guid(ffce3789ebfd67e49a40fc6482231a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4045cf35d09a102ce6a735c1e9e8d11c') in 0.373618 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/SteamVRAssets/SteamVR/Input/Editor/Resources/Icons/HandLeftIcon.png
-  artifactKey: Guid(1e898a11a01f33d4a80b04e98158023a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/Input/Editor/Resources/Icons/HandLeftIcon.png using Guid(1e898a11a01f33d4a80b04e98158023a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51e1119ab2e47d7a77242c2ffb5914f') in 0.024285 seconds 
+  Time since last request: 4.694438 seconds.
+  path: Assets/Art/Materials/MonsterEyes.mat
+  artifactKey: Guid(d8227fa06db68be4ba1077404c985534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/MonsterEyes.mat using Guid(d8227fa06db68be4ba1077404c985534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023ed16281546eef81821c00183f7920') in 0.018679 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/SteamVRAssets/SteamVR/InteractionSystem/Longbow/Textures/ArrowAlbedoTransparency.png
-  artifactKey: Guid(0f09256f7da973b45a660eefd832b56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/InteractionSystem/Longbow/Textures/ArrowAlbedoTransparency.png using Guid(0f09256f7da973b45a660eefd832b56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49ac76578af97f56cb329402d93b96e') in 0.094714 seconds 
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/Materials/MonsterTeeth.mat
+  artifactKey: Guid(e45a89b4b9e54094f984562e10810f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/MonsterTeeth.mat using Guid(e45a89b4b9e54094f984562e10810f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30603fcfb77016c5678cff68d528d3a') in 0.025944 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/Models/Materials/Furniture_AlbedoTransparency.png
-  artifactKey: Guid(f209c99394eca224b90cb94fca3e17c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/Models/Materials/Furniture_AlbedoTransparency.png using Guid(f209c99394eca224b90cb94fca3e17c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270740259dc553a457736a218a9f80c7') in 0.146307 seconds 
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Materials/MonsterTounge.mat
+  artifactKey: Guid(94de8301b959db64f8fecebf3515df4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/MonsterTounge.mat using Guid(94de8301b959db64f8fecebf3515df4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b094e54ebacad37bd7205d23e8b14c') in 0.019333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.849552 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(2e8a448369456764f961f7505c5268f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(2e8a448369456764f961f7505c5268f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3466cdd73e6e9999744a4360cf3cfcf') in 0.004124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052906 seconds.
+  path: Assets/Prefabs/Monster.prefab
+  artifactKey: Guid(0b97c8b5cb9e8e54bab90a6225602143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Monster.prefab using Guid(0b97c8b5cb9e8e54bab90a6225602143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5418e74ba8895edc321281c96a341e3') in 0.045089 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012761 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\erikd\OneDrive\Documents\Git\Project_hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\erikd\OneDrive\Documents\Git\Project_hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.298 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1299ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1006ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (401ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3298 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (24.7 KB). Loaded Objects now: 3821.
+Memory consumption went from 135.5 MB to 135.5 MB.
+Total: 2.713500 ms (FindLiveObjects: 0.270300 ms CreateObjectMapping: 0.202900 ms MarkObjects: 2.219300 ms  DeleteObjects: 0.019800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012322 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\erikd\OneDrive\Documents\Git\Project_hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\erikd\OneDrive\Documents\Git\Project_hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.333 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1334ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1056ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (385ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (239ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3298 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (24.6 KB). Loaded Objects now: 3823.
+Memory consumption went from 135.5 MB to 135.5 MB.
+Total: 3.714100 ms (FindLiveObjects: 0.356400 ms CreateObjectMapping: 0.249000 ms MarkObjects: 3.085400 ms  DeleteObjects: 0.022300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009525 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\erikd\OneDrive\Documents\Git\Project_hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\erikd\OneDrive\Documents\Git\Project_hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.554 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1555ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1287ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (352ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3312 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (1.4 MB). Loaded Objects now: 3835.
+Memory consumption went from 140.0 MB to 138.6 MB.
+Total: 3.315400 ms (FindLiveObjects: 0.253600 ms CreateObjectMapping: 0.215200 ms MarkObjects: 2.148900 ms  DeleteObjects: 0.696900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1816.216912 seconds.
+  path: Assets/HorrorEnvironment_Hospital
+  artifactKey: Guid(7d88a40eff11bcc42a7a2f3d4fccaf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital using Guid(7d88a40eff11bcc42a7a2f3d4fccaf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2096d6f312e07a392328062a0b87eb35') in 0.005441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.653746 seconds.
+  path: Assets/HorrorEnvironment_Hospital/foot_sfx.ogg
+  artifactKey: Guid(9527c885a75d4064ea1001c242856889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/foot_sfx.ogg using Guid(9527c885a75d4064ea1001c242856889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94630911f940c7e204d23380dd0a0078') in 0.071427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Hospital_postProcessProfile.asset
+  artifactKey: Guid(4bc1c549ff8a81044a2dd9de3468aab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Hospital_postProcessProfile.asset using Guid(4bc1c549ff8a81044a2dd9de3468aab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107b82847407881867761bf040af1b1c') in 0.004655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HorrorEnvironment_Hospital/HA_piano.ogg
+  artifactKey: Guid(2116a32c2288f764eaff062445b93289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/HA_piano.ogg using Guid(2116a32c2288f764eaff062445b93289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9547609117b85d82f87eff36df0bad05') in 0.008143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.201476 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs
+  artifactKey: Guid(502addac1106d044c844b43692ab5264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs using Guid(502addac1106d044c844b43692ab5264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95cad3552991229c1b60b42843bde00e') in 0.002002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053003 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/glassPlane.prefab
+  artifactKey: Guid(b24b28801ab01664a96959b9435386aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/glassPlane.prefab using Guid(b24b28801ab01664a96959b9435386aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716d608da68b4f3802a5bd699a2ddedc') in 0.027031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.554645 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Elevator
+  artifactKey: Guid(45b0d54da00c25c41a57fa48c2bd4a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Elevator using Guid(45b0d54da00c25c41a57fa48c2bd4a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9f110652f46d28b45200f54bf0c249') in 0.002397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050086 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Elevator/elevator_A.prefab
+  artifactKey: Guid(cad45b40150a6bc4487e0fe0cbe8bfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Elevator/elevator_A.prefab using Guid(cad45b40150a6bc4487e0fe0cbe8bfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cae6cdfc23aa10a7017fb48c45d9235') in 0.446990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Elevator/elevator_jamb.prefab
+  artifactKey: Guid(f05a003082e5dff4eaed4d7c9b440d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Elevator/elevator_jamb.prefab using Guid(f05a003082e5dff4eaed4d7c9b440d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2249521dc19688a48933a227a3341a0') in 0.027529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.662923 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Doors
+  artifactKey: Guid(b09c74f069765d1488e919e36ba3542f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Doors using Guid(b09c74f069765d1488e919e36ba3542f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2e5147f078885d6e59506af3043941') in 0.002202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060106 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Doors/doors_A.prefab
+  artifactKey: Guid(27e6949f6248bbe4aa353a53f0863fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Doors/doors_A.prefab using Guid(27e6949f6248bbe4aa353a53f0863fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880dd12218d671140f6aa69f87ed58e6') in 0.019963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Doors/doors_wide.prefab
+  artifactKey: Guid(e0313b7c18c89044da25699e1e6aef3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Doors/doors_wide.prefab using Guid(e0313b7c18c89044da25699e1e6aef3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ad096bdd3aa5b37b214be4e0179234') in 0.015074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.783282 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Decals
+  artifactKey: Guid(e622d2b7dce2d4c40b06e5369216e598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Decals using Guid(e622d2b7dce2d4c40b06e5369216e598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca0016879c7f311a2232d8984a7aa12') in 0.002772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.123630 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Decals/decal_A.prefab
+  artifactKey: Guid(220f334da6473df4890957207733eab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Decals/decal_A.prefab using Guid(220f334da6473df4890957207733eab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d21de15b571c041148f6c5460f572a') in 0.251707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Decals/decal_D.prefab
+  artifactKey: Guid(3fcc755e45aa29e4baa7d14d8815a7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Decals/decal_D.prefab using Guid(3fcc755e45aa29e4baa7d14d8815a7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9de10deb44be72d6cca25424b040e9') in 0.023058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Decals/decal_E.prefab
+  artifactKey: Guid(463165a39b6bff34da377b1182735250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Decals/decal_E.prefab using Guid(463165a39b6bff34da377b1182735250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7577b4d37665d0b08f5e8a0a6b65210') in 0.023405 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/SteamVRAssets/SteamVR/InteractionSystem/Longbow/Textures/ArrowMetallicSmoothness.png
-  artifactKey: Guid(90891b0a7924dee4a87b2a107431c9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/InteractionSystem/Longbow/Textures/ArrowMetallicSmoothness.png using Guid(90891b0a7924dee4a87b2a107431c9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a8c503f530534c539b278e3478f76d') in 0.133053 seconds 
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Decals/decal_H.prefab
+  artifactKey: Guid(9b51bd861811aff4ebe3ef2b4951b717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Decals/decal_H.prefab using Guid(9b51bd861811aff4ebe3ef2b4951b717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba754080107592ecd853de3963e3a9e5') in 0.022298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.475680 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes
+  artifactKey: Guid(4a6c9c04cef07504888827b7c6af4e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes using Guid(4a6c9c04cef07504888827b7c6af4e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab602a4e4fe85a2528ac3f9672f9170') in 0.002667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056439 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/doors_jamb_A.prefab
+  artifactKey: Guid(7a148e1858ea14643a0f470ca79178ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/doors_jamb_A.prefab using Guid(7a148e1858ea14643a0f470ca79178ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd746c7d914ecc7a005e05a593faf0da') in 0.032655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallB_window_A.prefab
+  artifactKey: Guid(2265f3d9814e69643a19276e274e3334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallB_window_A.prefab using Guid(2265f3d9814e69643a19276e274e3334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb6e51058d524f3fcfdffda47e16f60') in 0.043076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallA.prefab
+  artifactKey: Guid(306fde77f10bf8d44bcd385d5d892492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallA.prefab using Guid(306fde77f10bf8d44bcd385d5d892492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f627e483eb4fe61c7db4ba1808b701e4') in 0.053106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/liftShaft_C.prefab
+  artifactKey: Guid(de411f446177d8d4f9f9f27a5ef146ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/liftShaft_C.prefab using Guid(de411f446177d8d4f9f9f27a5ef146ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3dfebaad63452049983e659f493074') in 0.029192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/roundCeiling_cross.prefab
+  artifactKey: Guid(3914228c8b4a9f745890b577d6719379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/roundCeiling_cross.prefab using Guid(3914228c8b4a9f745890b577d6719379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820db4da5f8099410f05ee076098c7f8') in 0.022694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wall_elevator.prefab
+  artifactKey: Guid(db023b849048f3448ac6419400c78c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wall_elevator.prefab using Guid(db023b849048f3448ac6419400c78c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a594dacd83fcd18a07aaa5f106f54871') in 0.054891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wall_morgue.prefab
+  artifactKey: Guid(bb50d441020097647bd5c403db7f4859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wall_morgue.prefab using Guid(bb50d441020097647bd5c403db7f4859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a222b28313ec7e1be57cccd264576900') in 0.042259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/liftShaft_D.prefab
+  artifactKey: Guid(9f11396a82e0e8f498f545215404e804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/liftShaft_D.prefab using Guid(9f11396a82e0e8f498f545215404e804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf15abca2e36349670bc7b0c43224c7') in 0.023550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/roundCeiling.prefab
+  artifactKey: Guid(84b055dcf460da44ba30fb5db972e6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/roundCeiling.prefab using Guid(84b055dcf460da44ba30fb5db972e6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e3e6f3eaa36f02c15a19e5acecc844') in 0.021425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wall_tiny_A.prefab
+  artifactKey: Guid(0e1698c9fac162d448932e301666a8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wall_tiny_A.prefab using Guid(0e1698c9fac162d448932e301666a8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac82b69d2d90a20f7169d11004515628') in 0.032063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/roundCeiling_cap.prefab
+  artifactKey: Guid(558ad7c66f616a746a9258ea6f5c980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/roundCeiling_cap.prefab using Guid(558ad7c66f616a746a9258ea6f5c980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddeea65ffefeeb4cc49946677c5e3098') in 0.021409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallA_half_window_B.prefab
+  artifactKey: Guid(754a476821e809446a525ff6628a70bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallA_half_window_B.prefab using Guid(754a476821e809446a525ff6628a70bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf86b84b53224f145ad2a9b620acdb9') in 0.056987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallA_transition_Wide.prefab
+  artifactKey: Guid(a782c8181f63bb446bc1e1ed0f2ec1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallA_transition_Wide.prefab using Guid(a782c8181f63bb446bc1e1ed0f2ec1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c965ae6c5d7fa61ade254e248c513ce') in 0.046147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallA_window_A.prefab
+  artifactKey: Guid(ddf109961cbb09e49a9fcea963f57313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallA_window_A.prefab using Guid(ddf109961cbb09e49a9fcea963f57313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ac8009fdd789f242fd8545d5de8b58') in 0.053929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/liftShaft_B.prefab
+  artifactKey: Guid(e017d19fe61700f43841807fa9175b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/liftShaft_B.prefab using Guid(e017d19fe61700f43841807fa9175b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7478b79843b2ac519650b9e49a549aa') in 0.033341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/rubberFloorPlane_A.prefab
+  artifactKey: Guid(706032fadeb06e947aefdb1823b3fc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/rubberFloorPlane_A.prefab using Guid(706032fadeb06e947aefdb1823b3fc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d474ff8335267e8f0bbff4b9346dbf') in 0.035727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallA_half_window_A.prefab
+  artifactKey: Guid(b93c6c71061f6ef49bae00f3991af164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallA_half_window_A.prefab using Guid(b93c6c71061f6ef49bae00f3991af164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09de4e8bc1ed10f65b5aaf2e175d7129') in 0.050438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/stairsHall.prefab
+  artifactKey: Guid(0d19d9171d33f3a478d9745da7e363ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/stairsHall.prefab using Guid(0d19d9171d33f3a478d9745da7e363ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5657bacea56109c55fc94e54bd63b22a') in 0.064112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/liftShaft_A.prefab
+  artifactKey: Guid(f161238e77de3c047ade22a48e146d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/liftShaft_A.prefab using Guid(f161238e77de3c047ade22a48e146d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf69a69af21d78f969f4733f8db77115') in 0.036699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.175907 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props
+  artifactKey: Guid(afbe952902be67b46b6d0a7562060628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props using Guid(afbe952902be67b46b6d0a7562060628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d025019fa397ec57b8ddd52fd64c56') in 0.002234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.812527 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/bed_A.prefab
+  artifactKey: Guid(f9eaca407e3936f45a69aecbf3ac0055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/bed_A.prefab using Guid(f9eaca407e3936f45a69aecbf3ac0055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cae18ac526921163833ea4f26b79273') in 0.042200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/toiletBox_door.prefab
+  artifactKey: Guid(5db30886d99ce2643881ef9a689c807b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/toiletBox_door.prefab using Guid(5db30886d99ce2643881ef9a689c807b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8b1adb3248e7e1ad2de198031c8945') in 0.033826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/desk_A.prefab
+  artifactKey: Guid(8be8dc4dc8d05be4eb7917315e7ca72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/desk_A.prefab using Guid(8be8dc4dc8d05be4eb7917315e7ca72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e7a5c5ad304edb8bd71b72dc5296a4') in 0.046359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/bed_B.prefab
+  artifactKey: Guid(990ce72a0d81a894eab224409d2249db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/bed_B.prefab using Guid(990ce72a0d81a894eab224409d2249db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b25294edc40020675c5c24c0bfa60d') in 0.032701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/lamp_B.prefab
+  artifactKey: Guid(28a4235ebf661864da3d7245ad19beda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/lamp_B.prefab using Guid(28a4235ebf661864da3d7245ad19beda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd815b7b7f65db12ba3de4fab7b0c781d') in 0.032133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/toilet_B.prefab
+  artifactKey: Guid(9a33d95dc11b88f4296583fd304ba9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/toilet_B.prefab using Guid(9a33d95dc11b88f4296583fd304ba9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffae1a06b7732308c36e96a831082be2') in 0.039462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/morgue_sink.prefab
+  artifactKey: Guid(1fc3404be57be1b4ebc619c26b9ff04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/morgue_sink.prefab using Guid(1fc3404be57be1b4ebc619c26b9ff04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352d4b67f7ac14692c88f19dc2da0292') in 0.030094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/pictureFrame_A.prefab
+  artifactKey: Guid(a00f66dcaa2fea347a05593a1d15c962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/pictureFrame_A.prefab using Guid(a00f66dcaa2fea347a05593a1d15c962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ef0398e8fde535c7b922a05271c8f1') in 0.038973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/pipe_A.prefab
+  artifactKey: Guid(aeea0b19e5fc2f645a32d9adf42caf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/pipe_A.prefab using Guid(aeea0b19e5fc2f645a32d9adf42caf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914185d828a12bf33f45bc22976685a7') in 0.023054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/stool.prefab
+  artifactKey: Guid(6314503d4a332d14f9db8d601bf0380c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/stool.prefab using Guid(6314503d4a332d14f9db8d601bf0380c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb88e2ee306f2932c4a382df07e4c42d') in 0.025262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/pipe_B.prefab
+  artifactKey: Guid(9e66d32d4808240478c355390ffe5670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/pipe_B.prefab using Guid(9e66d32d4808240478c355390ffe5670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127322fe92fa1431e68f225d7d7bfd39') in 0.027824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/desk_C.prefab
+  artifactKey: Guid(e338a7ed4d4f51c4d909eafc612f6bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/desk_C.prefab using Guid(e338a7ed4d4f51c4d909eafc612f6bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f1aed36be018b84e38db06f0c9274b') in 0.040342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/heater_B.prefab
+  artifactKey: Guid(5f6f4c5bd2bd03240925ccc4f7c4d85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/heater_B.prefab using Guid(5f6f4c5bd2bd03240925ccc4f7c4d85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9526ea12235144d854bdae254f4dd4') in 0.026621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/operating_lamp_A_R.prefab
+  artifactKey: Guid(642df55de58583a4ea475a1ea1b268fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/operating_lamp_A_R.prefab using Guid(642df55de58583a4ea475a1ea1b268fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fa81385d4ff9affd649ac699d3a145') in 0.069477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/chair_A.prefab
+  artifactKey: Guid(e799a80c47f94184385408ccf1275cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/chair_A.prefab using Guid(e799a80c47f94184385408ccf1275cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54f3f4edb62b8c6d141e6205eddc592') in 0.036899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/morgue_sink_B.prefab
+  artifactKey: Guid(7e7aa4776cafc484bb75c53dfcd869bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/morgue_sink_B.prefab using Guid(7e7aa4776cafc484bb75c53dfcd869bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8272e03616a3a2f4378e81044130508') in 0.026517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/cupboard_door.prefab
+  artifactKey: Guid(ece3a1f3fed6ace4e8528e6572293026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/cupboard_door.prefab using Guid(ece3a1f3fed6ace4e8528e6572293026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67bc4834d7946faf2d8c6e93b054df3d') in 0.028472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/cupboard_drawer.prefab
+  artifactKey: Guid(7feedd1022886f64eb1692d240ffceec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/cupboard_drawer.prefab using Guid(7feedd1022886f64eb1692d240ffceec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a1c09fe104d5a29522fa2d785900df') in 0.031091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/shower_curtain.prefab
+  artifactKey: Guid(4922fb14432d21d43a4f95557c82f236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/shower_curtain.prefab using Guid(4922fb14432d21d43a4f95557c82f236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1879b4c7c274de0bdd8aa0504c341c71') in 0.045107 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/SteamVRAssets/SteamVR/InteractionSystem/Longbow/Textures/ArrowGlint.png
-  artifactKey: Guid(c4a7b02e27e148a47b782f8cd5cb598d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/InteractionSystem/Longbow/Textures/ArrowGlint.png using Guid(c4a7b02e27e148a47b782f8cd5cb598d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779b70d033e39502102224b0e5930dce') in 0.129902 seconds 
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/morgue_doors.prefab
+  artifactKey: Guid(c0890b4c4a0a7d94c8d4726326e01ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/morgue_doors.prefab using Guid(c0890b4c4a0a7d94c8d4726326e01ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338440bd841d9f7fadd232949150d0ea') in 0.008199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/toilet_C.prefab
+  artifactKey: Guid(c5b23923553254244aa1270acf852199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/toilet_C.prefab using Guid(c5b23923553254244aa1270acf852199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04bda0ca4d47dc808c521ca9f632dcc8') in 0.040372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/bed_B_empty.prefab
+  artifactKey: Guid(213f60eabd36c92429a4878234bdbe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/bed_B_empty.prefab using Guid(213f60eabd36c92429a4878234bdbe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4322b03a0b854c028394c213f4193508') in 0.038130 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/Textures/fabric nrm.png
-  artifactKey: Guid(7927253fa6653fe4f86150e8a01de6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVRAssets/SteamVR/InteractionSystem/Samples/Textures/fabric nrm.png using Guid(7927253fa6653fe4f86150e8a01de6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded3eed22db76ca6131e35b769baad27') in 0.081518 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/operating_bed_B.prefab
+  artifactKey: Guid(27e8328afea193e4ea09ea278f731998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/operating_bed_B.prefab using Guid(27e8328afea193e4ea09ea278f731998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2006722eb212d6b3831973f5c5c2e6a') in 0.060681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/heater_A.prefab
+  artifactKey: Guid(58e95116a0e368b46bb1fa300bc29632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/heater_A.prefab using Guid(58e95116a0e368b46bb1fa300bc29632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9ba54140d2e25754c0016831954c8f') in 0.026289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/morgue_bath.prefab
+  artifactKey: Guid(a10ef3f34bfbaf54ea275422335cebd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/morgue_bath.prefab using Guid(a10ef3f34bfbaf54ea275422335cebd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9a9a1982deca0770fba15c28425886') in 0.054353 seconds 
