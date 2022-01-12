@@ -19,15 +19,24 @@ public class PlayerTest : MonoBehaviour
     void Start()
     {
         playerController = GetComponent<CharacterController>();
-        // Lock cursor
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Cursor.visible = false;
+        // Toggle lock cursor with B - Jesse
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            if (Cursor.lockState == CursorLockMode.Locked)
+            {
+                Cursor.lockState = CursorLockMode.None;
+            }
+            else
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+            }
+            Cursor.visible = !Cursor.visible;
+        }
         Move();
         CameraRotation();
     }

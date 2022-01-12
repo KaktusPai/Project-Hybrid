@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
+#if UNITY_EDITOR // To fix build error - Jesse
+using UnityEditor;
+#endif
 
 //TODO:
 //Fix enemy not chasing when losing line of sight.
@@ -252,7 +254,7 @@ public class EnemyAgent : MonoBehaviour
             return false;
         }
     }
-
+    #if UNITY_EDITOR // To fix build error - Jesse
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;
@@ -263,6 +265,6 @@ public class EnemyAgent : MonoBehaviour
         Handles.DrawWireArc(this.transform.position, Vector3.up, Quaternion.Euler(0, -enemyFov, 0) * this.transform.transform.forward, enemyFov * 2, maxDetectionRange);
         Gizmos.DrawLine(this.transform.position, endPointLeft);
         Gizmos.DrawLine(this.transform.position, endPointRight);
-
     }
+    #endif
 }

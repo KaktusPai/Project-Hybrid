@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.2/staging' branch; Version is '2021.2.3f1 (32358a8527b4) revision 3290506'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1415; Version 2009; 64bit' Language: 'en' Physical Memory: 16343 MB
+OS: 'Windows 10 Pro; OS build 19042.1415; Version 2009; 64bit' Language: 'en' Physical Memory: 24502 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.2.3f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/erikd/OneDrive/Documents/Git/Project_hybrid/GetMeOut
+D:/Users/Jesse/Bureaublad/Unity Projects/Project-Hybrid/GetMeOut
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64303
-Successfully changed project path to: C:/Users/erikd/OneDrive/Documents/Git/Project_hybrid/GetMeOut
-C:/Users/erikd/OneDrive/Documents/Git/Project_hybrid/GetMeOut
+53726
+Successfully changed project path to: D:/Users/Jesse/Bureaublad/Unity Projects/Project-Hybrid/GetMeOut
+D:/Users/Jesse/Bureaublad/Unity Projects/Project-Hybrid/GetMeOut
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,259 +47,192 @@ C:/Users/erikd/OneDrive/Documents/Git/Project_hybrid/GetMeOut
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 78.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 159.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.3f1 (32358a8527b4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/erikd/OneDrive/Documents/Git/Project_hybrid/GetMeOut/Assets
+[Subsystems] Discovering subsystems at path D:/Users/Jesse/Bureaublad/Unity Projects/Project-Hybrid/GetMeOut/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
     Vendor:   NVIDIA
-    VRAM:     8043 MB
+    VRAM:     8010 MB
     Driver:   30.0.14.9709
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011876 seconds.
+Registered in 0.021101 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 99.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 106.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.742 seconds
+- Completed reload, in  1.769 seconds
 Domain Reload Profiling:
-	ReloadAssembly (742ms)
-		BeginReloadAssembly (94ms)
+	ReloadAssembly (1770ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (553ms)
-			LoadAssemblies (89ms)
+		EndReloadAssembly (714ms)
+			LoadAssemblies (130ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (130ms)
+			SetupTypeCache (154ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (332ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (429ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (38ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (100ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (157ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011059 seconds.
+Registered in 0.008329 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\erikd\OneDrive\Documents\Git\Project_hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\erikd\OneDrive\Documents\Git\Project_hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\Jesse\Bureaublad\Unity Projects\Project-Hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\Jesse\Bureaublad\Unity Projects\Project-Hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.199 seconds
+- Completed reload, in  2.684 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1199ms)
-		BeginReloadAssembly (200ms)
+	ReloadAssembly (2685ms)
+		BeginReloadAssembly (321ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (891ms)
-			LoadAssemblies (104ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (2206ms)
+			LoadAssemblies (146ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (264ms)
+			SetupTypeCache (439ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (378ms)
+			RebuildScriptCaches (149ms)
+			SetupLoadedEditorAssemblies (490ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (250ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (311ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (21ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3316 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (55.8 KB). Loaded Objects now: 3775.
-Memory consumption went from 119.8 MB to 119.8 MB.
-Total: 2.239400 ms (FindLiveObjects: 0.223300 ms CreateObjectMapping: 0.162000 ms MarkObjects: 1.794900 ms  DeleteObjects: 0.058600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1306340.169742 seconds.
-  path: Assets/Art/Models/Chair.fbx
-  artifactKey: Guid(8f08f31e30a55ec459e4bfcfce9b6733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Chair.fbx using Guid(8f08f31e30a55ec459e4bfcfce9b6733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7d71fdbbcc7f0128d4257f0c4490e6') in 0.169884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Art/Models/GapsAllSides.fbx
-  artifactKey: Guid(e9b1b15bb4a2bfc4498ff0ef63de0a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/GapsAllSides.fbx using Guid(e9b1b15bb4a2bfc4498ff0ef63de0a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112a1331d91271c167f73a5001c8f6be') in 0.046775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Art/Models/HandRiggedPlaceholder.fbx
-  artifactKey: Guid(4913ec3c5d4cd5b4ba4f55d137e3430a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/HandRiggedPlaceholder.fbx using Guid(4913ec3c5d4cd5b4ba4f55d137e3430a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2be69cfc2fed600a96010b9df4647a') in 0.077836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Art/Models/L-Shape.fbx
-  artifactKey: Guid(e5642e746200b6c42a41017892667902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/L-Shape.fbx using Guid(e5642e746200b6c42a41017892667902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e187b09cf6acc342a078ac421eab1563') in 0.025704 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Art/Models/T-Shape.fbx
-  artifactKey: Guid(92d079903ac9cee4eacdeb3c88da2352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/T-Shape.fbx using Guid(92d079903ac9cee4eacdeb3c88da2352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5672803b663e11b1f8f2530f2e21cdad') in 0.034656 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.940987 seconds.
-  path: Assets/Art/Materials/MonsterSkinn.mat
-  artifactKey: Guid(c66ad34ba8970a14ebb731cedfc65dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/MonsterSkinn.mat using Guid(c66ad34ba8970a14ebb731cedfc65dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71df9fe352a6391af95348e0ed01f0d7') in 0.080475 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011441 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\erikd\OneDrive\Documents\Git\Project_hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\erikd\OneDrive\Documents\Git\Project_hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.281 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1281ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (1003ms)
-			LoadAssemblies (102ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (305ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (402ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (249ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3298 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (24.7 KB). Loaded Objects now: 3822.
-Memory consumption went from 135.2 MB to 135.1 MB.
-Total: 2.195400 ms (FindLiveObjects: 0.228100 ms CreateObjectMapping: 0.176200 ms MarkObjects: 1.774800 ms  DeleteObjects: 0.015500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010554 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\erikd\OneDrive\Documents\Git\Project_hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\erikd\OneDrive\Documents\Git\Project_hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
 Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.373 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1374ms)
-		BeginReloadAssembly (166ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (1058ms)
-			LoadAssemblies (121ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (338ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (389ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (239ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3298 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (24.6 KB). Loaded Objects now: 3824.
-Memory consumption went from 135.2 MB to 135.1 MB.
-Total: 3.256200 ms (FindLiveObjects: 0.247000 ms CreateObjectMapping: 0.202000 ms MarkObjects: 2.782300 ms  DeleteObjects: 0.023900 ms)
+Unloading 3331 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (57.1 KB). Loaded Objects now: 3793.
+Memory consumption went from 125.0 MB to 125.0 MB.
+Total: 3.450500 ms (FindLiveObjects: 0.328600 ms CreateObjectMapping: 0.164900 ms MarkObjects: 2.844500 ms  DeleteObjects: 0.111000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (21.9 KB). Loaded Objects now: 3793.
+Memory consumption went from 57.2 MB to 57.1 MB.
+Total: 3.896300 ms (FindLiveObjects: 0.357500 ms CreateObjectMapping: 0.353900 ms MarkObjects: 3.149700 ms  DeleteObjects: 0.033900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (21.9 KB). Loaded Objects now: 3793.
+Memory consumption went from 57.2 MB to 57.2 MB.
+Total: 3.886700 ms (FindLiveObjects: 0.454300 ms CreateObjectMapping: 0.173200 ms MarkObjects: 3.176200 ms  DeleteObjects: 0.081100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (21.9 KB). Loaded Objects now: 3793.
+Memory consumption went from 57.2 MB to 57.2 MB.
+Total: 4.131000 ms (FindLiveObjects: 0.389400 ms CreateObjectMapping: 0.379600 ms MarkObjects: 3.334200 ms  DeleteObjects: 0.026600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (21.9 KB). Loaded Objects now: 3793.
+Memory consumption went from 57.2 MB to 57.2 MB.
+Total: 5.178600 ms (FindLiveObjects: 0.641600 ms CreateObjectMapping: 0.836200 ms MarkObjects: 3.645600 ms  DeleteObjects: 0.054000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -308,386 +241,382 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010292 seconds.
+Registered in 0.008287 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\erikd\OneDrive\Documents\Git\Project_hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\erikd\OneDrive\Documents\Git\Project_hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\Jesse\Bureaublad\Unity Projects\Project-Hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\Jesse\Bureaublad\Unity Projects\Project-Hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.481 seconds
+- Completed reload, in  3.255 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1482ms)
-		BeginReloadAssembly (159ms)
+	ReloadAssembly (3256ms)
+		BeginReloadAssembly (387ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (1220ms)
-			LoadAssemblies (112ms)
+			CreateAndSetChildDomain (146ms)
+		EndReloadAssembly (2343ms)
+			LoadAssemblies (281ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (250ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (473ms)
-				LogAssemblyErrors (1ms)
-				InitializePlatformSupportModulesInManaged (130ms)
+			SetupTypeCache (756ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (895ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (225ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (165ms)
+				ProcessInitializeOnLoadAttributes (591ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (32ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3312 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (1.4 MB). Loaded Objects now: 3836.
-Memory consumption went from 139.6 MB to 138.2 MB.
-Total: 4.258500 ms (FindLiveObjects: 0.256500 ms CreateObjectMapping: 0.274200 ms MarkObjects: 2.966700 ms  DeleteObjects: 0.759900 ms)
+Unloading 3309 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (24.6 KB). Loaded Objects now: 3795.
+Memory consumption went from 123.2 MB to 123.2 MB.
+Total: 4.751400 ms (FindLiveObjects: 0.358000 ms CreateObjectMapping: 0.684000 ms MarkObjects: 3.676300 ms  DeleteObjects: 0.032000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 1821.847374 seconds.
-  path: Assets/HorrorEnvironment_Hospital/HA_ambience.ogg
-  artifactKey: Guid(ae724d28944191c4090a55e59dedb9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/HA_ambience.ogg using Guid(ae724d28944191c4090a55e59dedb9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fa630a7431a830ed8d44ea9f48f81e') in 0.070959 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012144 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Jesse\Bureaublad\Unity Projects\Project-Hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\Jesse\Bureaublad\Unity Projects\Project-Hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.639 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1641ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1309ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (353ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (483ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (71ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3309 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (24.6 KB). Loaded Objects now: 3797.
+Memory consumption went from 123.2 MB to 123.2 MB.
+Total: 7.870300 ms (FindLiveObjects: 0.594400 ms CreateObjectMapping: 0.679100 ms MarkObjects: 6.563900 ms  DeleteObjects: 0.031300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/HorrorEnvironment_Hospital/HA_track.ogg
-  artifactKey: Guid(2505428e8ac094c4faa9ee750fa472cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/HA_track.ogg using Guid(2505428e8ac094c4faa9ee750fa472cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a680ca1bd61e013e1747bf43efb2836') in 0.008312 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015761 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Jesse\Bureaublad\Unity Projects\Project-Hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\Jesse\Bureaublad\Unity Projects\Project-Hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.147 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2148ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1783ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (511ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (756ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (475ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (36ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3309 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (24.6 KB). Loaded Objects now: 3799.
+Memory consumption went from 123.2 MB to 123.2 MB.
+Total: 6.595100 ms (FindLiveObjects: 0.383400 ms CreateObjectMapping: 0.467400 ms MarkObjects: 5.713000 ms  DeleteObjects: 0.029900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/HorrorEnvironment_Hospital/HA_beat.ogg
-  artifactKey: Guid(77031e6f81dc453468ac8b11287f4cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/HA_beat.ogg using Guid(77031e6f81dc453468ac8b11287f4cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79bd05929909e1fb4ee3e0a5c61517f') in 0.009056 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018610 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Jesse\Bureaublad\Unity Projects\Project-Hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\Jesse\Bureaublad\Unity Projects\Project-Hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.717 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1720ms)
+		BeginReloadAssembly (221ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1322ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (420ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (545ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (330ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (35ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3309 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (24.7 KB). Loaded Objects now: 3801.
+Memory consumption went from 123.3 MB to 123.2 MB.
+Total: 7.739900 ms (FindLiveObjects: 1.343300 ms CreateObjectMapping: 1.513100 ms MarkObjects: 4.854200 ms  DeleteObjects: 0.027900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 42.256279 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/PLAYER.prefab
-  artifactKey: Guid(cb02e926568a7224ab8485770de84356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/PLAYER.prefab using Guid(cb02e926568a7224ab8485770de84356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa24de447b1952aeba07aee448c0af5') in 0.015305 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033393 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Jesse\Bureaublad\Unity Projects\Project-Hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\Jesse\Bureaublad\Unity Projects\Project-Hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.273 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2275ms)
+		BeginReloadAssembly (279ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1836ms)
+			LoadAssemblies (189ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (482ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (789ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (518ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (49ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3309 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (24.6 KB). Loaded Objects now: 3803.
+Memory consumption went from 123.3 MB to 123.2 MB.
+Total: 5.940100 ms (FindLiveObjects: 0.757600 ms CreateObjectMapping: 0.587000 ms MarkObjects: 4.564800 ms  DeleteObjects: 0.029400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 6.624411 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Elevator/elevator_B.prefab
-  artifactKey: Guid(a5ec481be8101fe48b171a1b1c65bf9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Elevator/elevator_B.prefab using Guid(a5ec481be8101fe48b171a1b1c65bf9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a463f86be7191748541cc49c78af82') in 0.448279 seconds 
+Received Prepare
+Refreshing native plugins compatible for Editor in 12.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (21.9 KB). Loaded Objects now: 3803.
+Memory consumption went from 57.4 MB to 57.3 MB.
+Total: 8.652500 ms (FindLiveObjects: 1.135200 ms CreateObjectMapping: 0.516900 ms MarkObjects: 6.961900 ms  DeleteObjects: 0.037000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Elevator/elevator_switch.prefab
-  artifactKey: Guid(15f99e84a0ba2f148a00a5632cb3f332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Elevator/elevator_switch.prefab using Guid(15f99e84a0ba2f148a00a5632cb3f332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5d06cf8c48e7b481b3fd45e6a1db2e') in 0.027492 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007468 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Jesse\Bureaublad\Unity Projects\Project-Hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\Jesse\Bureaublad\Unity Projects\Project-Hybrid\GetMeOut\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.909 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2911ms)
+		BeginReloadAssembly (236ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (2456ms)
+			LoadAssemblies (186ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1017ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (843ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (151ms)
+				ProcessInitializeOnLoadAttributes (564ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (36ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3309 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (24.6 KB). Loaded Objects now: 3805.
+Memory consumption went from 123.3 MB to 123.2 MB.
+Total: 3.717200 ms (FindLiveObjects: 0.339400 ms CreateObjectMapping: 0.357700 ms MarkObjects: 2.993900 ms  DeleteObjects: 0.025000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 1.730321 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Doors/doors_B.prefab
-  artifactKey: Guid(63f1831b2d563d74ba51033500673c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Doors/doors_B.prefab using Guid(63f1831b2d563d74ba51033500673c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ad5b031835bfb9602f10d5b739f5e3') in 0.020587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Doors/doors_C.prefab
-  artifactKey: Guid(3e6eb3f3bdb0a30499720b5296b06f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Doors/doors_C.prefab using Guid(3e6eb3f3bdb0a30499720b5296b06f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c447b03ee6f3ed606123275ea095b5e') in 0.016706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.912281 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Decals/decal_B.prefab
-  artifactKey: Guid(39a8b7f3fd901d24e9ca310eb8b54bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Decals/decal_B.prefab using Guid(39a8b7f3fd901d24e9ca310eb8b54bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bdbcd2e37266edbb97c9f0327c41ed') in 0.250014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Decals/decal_G.prefab
-  artifactKey: Guid(a88295de3d218bb43aa159b6cda3a458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Decals/decal_G.prefab using Guid(a88295de3d218bb43aa159b6cda3a458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722a6d3d985dbe3979e211d5fec592f3') in 0.022128 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Decals/decal_F.prefab
-  artifactKey: Guid(37f72098811a342468f798aa79bc7b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Decals/decal_F.prefab using Guid(37f72098811a342468f798aa79bc7b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c283cadfb08f2986f0cc59bcc51918') in 0.027730 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Decals/decal_C.prefab
-  artifactKey: Guid(a70b6b5729fd2564e92fe3d17a97e385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Decals/decal_C.prefab using Guid(a70b6b5729fd2564e92fe3d17a97e385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d7034fe48ff728959631ba7caf1e75') in 0.016038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.546735 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/doors_jamb_B.prefab
-  artifactKey: Guid(e8266e240a82f3646a106a603f6d4912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/doors_jamb_B.prefab using Guid(e8266e240a82f3646a106a603f6d4912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a89af489e073e2febad9a46e81ef7f') in 0.041322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/doors_jamb_wide.prefab
-  artifactKey: Guid(67c506bb6cd81e6468fe475ab3f5e35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/doors_jamb_wide.prefab using Guid(67c506bb6cd81e6468fe475ab3f5e35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af8e04f1f4afcf8a32efda4424d12b0') in 0.042705 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wall_roundCorner.prefab
-  artifactKey: Guid(525b9b37e28c18c44bb9ac1567164443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wall_roundCorner.prefab using Guid(525b9b37e28c18c44bb9ac1567164443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b1dec6b9f3cad59acc143398bc8bed') in 0.059890 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/pillar_B.prefab
-  artifactKey: Guid(5d1ab78303a3c134fbc90451bbf6f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/pillar_B.prefab using Guid(5d1ab78303a3c134fbc90451bbf6f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd48c7acc6ad19912c5929f3b75366d2') in 0.037988 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/doors_jamb_C.prefab
-  artifactKey: Guid(217def8d18ea2484f9ad66cb0297b1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/doors_jamb_C.prefab using Guid(217def8d18ea2484f9ad66cb0297b1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9243cdd82fe59376bf093963acb936e0') in 0.052080 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/floorPlane_jamb.prefab
-  artifactKey: Guid(bd05ec93ab94f364fb60619fd1f04653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/floorPlane_jamb.prefab using Guid(bd05ec93ab94f364fb60619fd1f04653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab5c0d02bcace0c75a06be0ffb33e5f') in 0.022665 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallB_transition.prefab
-  artifactKey: Guid(b6da9d07d0af8294d86ce02c4d5945de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallB_transition.prefab using Guid(b6da9d07d0af8294d86ce02c4d5945de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e313c7c827bae197448c0027a25ee20b') in 0.037326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wall_tiny_B.prefab
-  artifactKey: Guid(75e1d290dd5a74c42a2b3b59baeea7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wall_tiny_B.prefab using Guid(75e1d290dd5a74c42a2b3b59baeea7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8ed27a6428ab868107bdff0c54c116') in 0.029086 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/floorPlane.prefab
-  artifactKey: Guid(488f0a72079744143aaa5b713e99c99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/floorPlane.prefab using Guid(488f0a72079744143aaa5b713e99c99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0b01531a15dc1d73eceba83eca1b6d') in 0.026228 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/roundCeiling_skylight.prefab
-  artifactKey: Guid(a07007042c5d85e4999002cee5f16481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/roundCeiling_skylight.prefab using Guid(a07007042c5d85e4999002cee5f16481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c062b7cf5ebfe2b375f8e1769e2447') in 0.039302 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallB_window_B.prefab
-  artifactKey: Guid(1371462a68503b04193ce9bd14c141ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallB_window_B.prefab using Guid(1371462a68503b04193ce9bd14c141ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb6998e3a52821de96fe36805321f61') in 0.055309 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/floorPlane_stair.prefab
-  artifactKey: Guid(877e090f6d6094941a6a6587fbc64e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/floorPlane_stair.prefab using Guid(877e090f6d6094941a6a6587fbc64e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71720b6eea8860b44a490b7d7c72ec9') in 0.029878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/pillar_A.prefab
-  artifactKey: Guid(dfb4a595a24e1f14b9d5229ca0b5ed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/pillar_A.prefab using Guid(dfb4a595a24e1f14b9d5229ca0b5ed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113f014055cd10dbffa2e9232090f810') in 0.049975 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallA_window_B.prefab
-  artifactKey: Guid(a926699758f5b014aa2787e4a980537b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallA_window_B.prefab using Guid(a926699758f5b014aa2787e4a980537b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67103ff79eceba57841bc6081f71fbb8') in 0.049988 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallB.prefab
-  artifactKey: Guid(a090abaef3e8509418758c1b5c1e165d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallB.prefab using Guid(a090abaef3e8509418758c1b5c1e165d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b483708b258cc5925358557a2f9cfa') in 0.046034 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/rubberFloorPlane_B.prefab
-  artifactKey: Guid(db8eaa2fa47d6ef4f9b6c0d3538128a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/rubberFloorPlane_B.prefab using Guid(db8eaa2fa47d6ef4f9b6c0d3538128a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149adc3bf13ca1b5a7f249ffb005a74d') in 0.031566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallA_transition.prefab
-  artifactKey: Guid(5819aaeb4c3a3e442abeb93155e8dc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallA_transition.prefab using Guid(5819aaeb4c3a3e442abeb93155e8dc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca64c99d1dcc37153aa9e71250908cd') in 0.043139 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/roundCeiling_cap_2s.prefab
-  artifactKey: Guid(10c1eaa2f9257874f96777a89912f1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/roundCeiling_cap_2s.prefab using Guid(10c1eaa2f9257874f96777a89912f1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f4235fe16289b49573307617973576') in 0.022453 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallA_half.prefab
-  artifactKey: Guid(5263e9a4eb90cee4e90bad28e830662f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Brushes/wallA_half.prefab using Guid(5263e9a4eb90cee4e90bad28e830662f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43ed1cf0df4b06b9dcbe0db6e9785b8') in 0.042103 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.989217 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/bed_A_empty.prefab
-  artifactKey: Guid(bfc6ce508d49b6c48b81f9cda6921a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/bed_A_empty.prefab using Guid(bfc6ce508d49b6c48b81f9cda6921a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fb884d6567adae512457053e85b8c4') in 0.040050 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/toiletBoxWall.prefab
-  artifactKey: Guid(5af0c2d7582018f4789fdf6518109b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/toiletBoxWall.prefab using Guid(5af0c2d7582018f4789fdf6518109b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f5f3d592b5d3e29c20d19c1e6deecb') in 0.031431 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/bench.prefab
-  artifactKey: Guid(e20d5c913fbf7c44b89af2b562005402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/bench.prefab using Guid(e20d5c913fbf7c44b89af2b562005402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373afbdfe1f2e4ad4d209b7ee8556b9f') in 0.030472 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/pipe_D.prefab
-  artifactKey: Guid(64e7dd5811deed04088c97ee7d576a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/pipe_D.prefab using Guid(64e7dd5811deed04088c97ee7d576a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf89e2b37bf50f33eb5fe4c55a6d03b') in 0.030909 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/cupboard_A.prefab
-  artifactKey: Guid(f043edb7aecd8324bab6bd21c04ab2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/cupboard_A.prefab using Guid(f043edb7aecd8324bab6bd21c04ab2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a43f867c90717ead4a1235fd6fcc83b') in 0.036646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/morgue_bed.prefab
-  artifactKey: Guid(67d7a4395c82b3444969f98e69ab96ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/morgue_bed.prefab using Guid(67d7a4395c82b3444969f98e69ab96ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5daffe5359f532a3d16be222e2f74a45') in 0.017734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/operating_lamp_B_R.prefab
-  artifactKey: Guid(5dfdf3755e7de8c4a8ba4ae0c6222e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/operating_lamp_B_R.prefab using Guid(5dfdf3755e7de8c4a8ba4ae0c6222e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e51503f22421cc3a525323ae5883fd') in 0.069364 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/locker_A.prefab
-  artifactKey: Guid(1be0809da3ac39343b782e14e48aded2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/locker_A.prefab using Guid(1be0809da3ac39343b782e14e48aded2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fb255b85d10c4747ab07531f22dc66') in 0.038318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/ms_2.prefab
-  artifactKey: Guid(c7f02adde126a0b4ba18e9d9fb62e364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/ms_2.prefab using Guid(c7f02adde126a0b4ba18e9d9fb62e364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb8b056a00bd0004003629f2a5dea01') in 0.045634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/desk_B.prefab
-  artifactKey: Guid(bae44406b46f31749b64764b5130414c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/desk_B.prefab using Guid(bae44406b46f31749b64764b5130414c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac0059d4daea33d410286bfefe8479c') in 0.031261 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/shower.prefab
-  artifactKey: Guid(fb97317610183d4499d15b83e42f7fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/shower.prefab using Guid(fb97317610183d4499d15b83e42f7fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6323e22865c59b14795fd5c5d69d3d') in 0.055713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/sink.prefab
-  artifactKey: Guid(3ae4d3f6b584f654eaa2f595c1b6e68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/sink.prefab using Guid(3ae4d3f6b584f654eaa2f595c1b6e68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a358f634b4f61042f2982bd690a35284') in 0.033269 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/cupboard_B.prefab
-  artifactKey: Guid(237bcd6331d1ec342bac54ecf4aaabbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/cupboard_B.prefab using Guid(237bcd6331d1ec342bac54ecf4aaabbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41bef63d7932665d8694e93b8cbb72d0') in 0.044582 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/heater_elbow.prefab
-  artifactKey: Guid(8ffc42e4c3db82e45878fb94755c8359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/heater_elbow.prefab using Guid(8ffc42e4c3db82e45878fb94755c8359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a2650f818c2f9edf296224ea0ac173') in 0.024028 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/pictureFrame_B.prefab
-  artifactKey: Guid(2a2be0575b3fcc941bc7f098ed5deafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/pictureFrame_B.prefab using Guid(2a2be0575b3fcc941bc7f098ed5deafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e216c0ba272962b2d8ae26237fd5c4') in 0.031974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/shower_curtain_B.prefab
-  artifactKey: Guid(7f8669df680d0594ab3e671867a26108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/shower_curtain_B.prefab using Guid(7f8669df680d0594ab3e671867a26108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a99bac66fb780332ce5a905d9f715c1') in 0.042401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/bed_C.prefab
-  artifactKey: Guid(845ee45dc7dd3ca4b892f8535ac24216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/bed_C.prefab using Guid(845ee45dc7dd3ca4b892f8535ac24216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e65654fef0750e0e061b15475300da9') in 0.035942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/operating_bed_A.prefab
-  artifactKey: Guid(9e1c46de769cc4d45ba4b742d1cfc050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/operating_bed_A.prefab using Guid(9e1c46de769cc4d45ba4b742d1cfc050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20f86b6018ac334baa97183c3211c31') in 0.059166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/ms_1.prefab
-  artifactKey: Guid(019a88c3b0399364ab7952b4888bb062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/ms_1.prefab using Guid(019a88c3b0399364ab7952b4888bb062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b290e043b946d334f3b45f68926ddb9') in 0.082291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/bed_C_empty.prefab
-  artifactKey: Guid(8fbc5ee8500b9004fad4c0079fd045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/bed_C_empty.prefab using Guid(8fbc5ee8500b9004fad4c0079fd045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b5e79f7a9eb85eb5e9d8c0bb279620') in 0.031417 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/toilet_flushBox.prefab
-  artifactKey: Guid(d8efaf7e054fa4344bffa73115bc6400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/toilet_flushBox.prefab using Guid(d8efaf7e054fa4344bffa73115bc6400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32051777b08670f953b0bd12821906f0') in 0.031452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/pipe_C.prefab
-  artifactKey: Guid(7e68c80c426d9404d8db333120ca76f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/pipe_C.prefab using Guid(7e68c80c426d9404d8db333120ca76f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3d80e3b7664bfee7ac5b0ed2218ef8') in 0.027849 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/lamp_A.prefab
-  artifactKey: Guid(64580fd0b48a266469ed778b57333348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/lamp_A.prefab using Guid(64580fd0b48a266469ed778b57333348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac3a5633d9f3f64e5a103586a45aee3') in 0.021693 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/HorrorEnvironment_Hospital/Prefabs/Props/toilet_A.prefab
-  artifactKey: Guid(b3ae8388d004a4640b14e2d80d57c442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HorrorEnvironment_Hospital/Prefabs/Props/toilet_A.prefab using Guid(b3ae8388d004a4640b14e2d80d57c442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161a854199bff5e62ae3f1b6086cfb4d') in 0.031034 seconds 
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (21.9 KB). Loaded Objects now: 3805.
+Memory consumption went from 57.4 MB to 57.3 MB.
+Total: 3.839900 ms (FindLiveObjects: 0.331400 ms CreateObjectMapping: 0.670600 ms MarkObjects: 2.819700 ms  DeleteObjects: 0.017200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
