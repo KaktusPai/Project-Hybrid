@@ -7,14 +7,14 @@ using UnityEditor;
 #endif
 
 //TODO:
-//Fix enemy not chasing when losing line of sight.
-//Implement the monster and remove placeholders.
+//Polish enemy a bit more
 //Discuss about functionality and features.
 
 public class EnemyAgent : MonoBehaviour
 {
     private NavMeshAgent agent;
     private GameObject player;
+    private Animator enemyAnim;
 
     //AI
     private EnemyStates currentState = EnemyStates.IDLE;
@@ -30,27 +30,28 @@ public class EnemyAgent : MonoBehaviour
     //Detection
     private float maxDetectionRange = 20;
     private float enemyFov = 45;
+    private float enemyWanderFov = 45;
 
     //Chasing
     private float maxSearchTime = 5f;
     private float defaultPauseTime = 2f;
+    private float defaultLostSightTIme = 5f;
 
     private float searchTimer = 0f;
     private float pauseTime = 0f;
+    private float lostSightTime = 0f;
+
+    private float enemtChaseFov = 70;
 
     private Vector3 lastSeenPosition;
 
     private float searchRadius = 10f;
 
-    private float chaseSpeed = 3.5f;
+    private float chaseSpeed = 5f;
 
     //Audio
     private AudioSource audioPlayer;
     [SerializeField]private AudioClip monsterRoar;
-
-    //TESTING PURPOSES
-    [SerializeField] private List<Material> enemyMats = new List<Material>();
-    private MeshRenderer agentMeshRenderer;
 
     // Start is called before the first frame update
     void Start()
@@ -58,7 +59,7 @@ public class EnemyAgent : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         agent = this.GetComponent<NavMeshAgent>();
         audioPlayer = this.GetComponent<AudioSource>();
-        agentMeshRenderer = this.GetComponent<MeshRenderer>();
+        enemyAnim = this.GetComponent<Animator>();
 
         currentState = EnemyStates.WANDERING;
 
@@ -75,7 +76,8 @@ public class EnemyAgent : MonoBehaviour
         //if the player is spotted, chase the player
         if (IsPlayerSeen())
         {
-            agentMeshRenderer.material = enemyMats[3];
+            lostSightTime = defaultLostSightTIme;
+
             if (currentState == EnemyStates.CHASING)
             {
                 //It's already in a chase
@@ -100,7 +102,10 @@ public class EnemyAgent : MonoBehaviour
                     break;
                 case EnemyStates.CHASING:
                         //The enemy has lost the player out of sight
-                        LostPlayer();
+                        if (LostThePlayer()) //only give up when the player hasnt been seen for a few seconds
+                        {
+                            LostPlayer();
+                        }
                     break;
             }
         }
@@ -108,13 +113,14 @@ public class EnemyAgent : MonoBehaviour
         //enemy should only wander when the player is not seen and when it's not searching
         if (currentState == EnemyStates.WANDERING && agent.remainingDistance < 1)
         {
-            agentMeshRenderer.material = enemyMats[1];
             FreeRoam(roamRadius);
         }
     }
 
     private void LostPlayer()
     {
+        enemyAnim.Play("Walking");
+        enemyFov = enemyWanderFov;
         currentState = EnemyStates.SEARCHING;
         searchTimer = maxSearchTime;
         SearchTimeLeft();
@@ -123,8 +129,8 @@ public class EnemyAgent : MonoBehaviour
 
     private void ContinueWandering()
     {
+        enemyAnim.Play("Walking");
         currentState = EnemyStates.WANDERING;
-        agentMeshRenderer.material = enemyMats[1];
         FreeRoam(roamRadius);
     }
 
@@ -132,7 +138,6 @@ public class EnemyAgent : MonoBehaviour
     {
         if (SearchTimeLeft())
         {
-            agentMeshRenderer.material = enemyMats[2];
 
             if(agent.remainingDistance < 1)
             {
@@ -142,8 +147,8 @@ public class EnemyAgent : MonoBehaviour
         else
         {
             currentState = EnemyStates.IDLE;
+            enemyAnim.Play("Idle");
             agent.speed = 0;
-            agentMeshRenderer.material = enemyMats[0];
             pauseTime = defaultPauseTime;
         }
     }
@@ -155,14 +160,27 @@ public class EnemyAgent : MonoBehaviour
         agent.SetDestination(player.transform.position);
     }
 
+    private bool LostThePlayer()
+    {
+        lostSightTime -= Time.deltaTime;
+        if (lostSightTime < 0)
+        {
+            return true;
+        }
+        return false;
+    }
+
     private IEnumerator StartChase()
     {
         //start animation, sound and timer
-        pauseTime = 4f;
+        pauseTime = 1.5f;
         agent.speed = 0;
-        //audioPlayer.PlayOneShot(monsterRoar);
-        yield return new WaitForSeconds(4f); //animation and sound duration
+        enemyFov = enemtChaseFov;
+        enemyAnim.Play("Roar");
+        audioPlayer.PlayOneShot(monsterRoar);
+        yield return new WaitForSeconds(1.5f); //animation and sound duration
         agent.speed = chaseSpeed;
+        enemyAnim.Play("Running");
         currentState = EnemyStates.CHASING;
     }
 
@@ -210,8 +228,6 @@ public class EnemyAgent : MonoBehaviour
         NavMesh.SamplePosition(randomDirection, out hit, rad, 1);
         Vector3 finalPosition = hit.position;
         agent.destination = finalPosition;
-
-        //enemyWaypoint.transform.position = finalPosition;
     }
 
     // check to see if a player is within viewing range

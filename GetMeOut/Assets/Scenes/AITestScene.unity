@@ -106,15 +106,15 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.5
-    agentHeight: 2
+    agentRadius: 2
+    agentHeight: 5.5
     agentSlope: 45
-    agentClimb: 0.4
+    agentClimb: 1
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.16666667
+    cellSize: 0.6666667
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
@@ -144,7 +144,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!136 &63192804
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -274,11 +274,6 @@ MonoBehaviour:
   - {fileID: 557960916}
   enemyWaypoint: {fileID: 1999988033}
   monsterRoar: {fileID: 8300000, guid: 855fa7a117b1ea643a5da643fa77fd21, type: 3}
-  enemyMats:
-  - {fileID: 2100000, guid: d0e7c8b459b85ff47a74b30a90ffcc78, type: 2}
-  - {fileID: 2100000, guid: 26598e1728cd8df45bc5afee44dad84d, type: 2}
-  - {fileID: 2100000, guid: 62dc197ed22f4a541ad8a111f3d5b942, type: 2}
-  - {fileID: 2100000, guid: 99ed6ebdda8e88143a64fd466a796823, type: 2}
 --- !u!82 &63192810
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2106,12 +2101,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 455162464891762973, guid: 0b97c8b5cb9e8e54bab90a6225602143, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 455162464891762973, guid: 0b97c8b5cb9e8e54bab90a6225602143, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 455162464891762973, guid: 0b97c8b5cb9e8e54bab90a6225602143, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 455162464891762973, guid: 0b97c8b5cb9e8e54bab90a6225602143, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 455162464891762973, guid: 0b97c8b5cb9e8e54bab90a6225602143, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.35
       objectReference: {fileID: 0}
     - target: {fileID: 455162464891762973, guid: 0b97c8b5cb9e8e54bab90a6225602143, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2151,7 +2158,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 944312766301643687, guid: 0b97c8b5cb9e8e54bab90a6225602143, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b97c8b5cb9e8e54bab90a6225602143, type: 3}
@@ -2187,12 +2194,7 @@ MonoBehaviour:
   - {fileID: 699312648}
   - {fileID: 557960916}
   enemyWaypoint: {fileID: 1999988033}
-  monsterRoar: {fileID: 8300000, guid: 855fa7a117b1ea643a5da643fa77fd21, type: 3}
-  enemyMats:
-  - {fileID: 2100000, guid: d0e7c8b459b85ff47a74b30a90ffcc78, type: 2}
-  - {fileID: 2100000, guid: 26598e1728cd8df45bc5afee44dad84d, type: 2}
-  - {fileID: 2100000, guid: 62dc197ed22f4a541ad8a111f3d5b942, type: 2}
-  - {fileID: 2100000, guid: 99ed6ebdda8e88143a64fd466a796823, type: 2}
+  monsterRoar: {fileID: 8300000, guid: 5dd8a070a2cf06c4d921802852e45804, type: 3}
 --- !u!82 &715473147
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2206,7 +2208,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 0.5
-  m_Pitch: 1
+  m_Pitch: 1.05
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -2298,19 +2300,52 @@ NavMeshAgent:
   m_GameObject: {fileID: 715473145}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5000001
+  m_Radius: 2
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 0
+  m_StoppingDistance: 1
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 1
+  m_Height: 5.5
+  m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!65 &715473150
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715473145}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4, y: 0.1, z: 4}
+  m_Center: {x: 0, y: 0, z: -1}
+--- !u!95 &715473151
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715473145}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: ffce3789ebfd67e49a40fc6482231a81, type: 3}
+  m_Controller: {fileID: 9100000, guid: 38ede865057a3fb42897c5357e5f56d4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &716164299
 GameObject:
   m_ObjectHideFlags: 0
