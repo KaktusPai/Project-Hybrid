@@ -55,6 +55,10 @@ public class EnemyAgent : MonoBehaviour
     [SerializeField] private AudioClip monsterRoar;
     [SerializeField] private AudioClip metalImpact;
 
+    [SerializeField] private List<AudioClip> passiveAudio = new List<AudioClip>();
+    private float maxSilentTime = 12f;
+    private float silentTime = 0f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -122,6 +126,18 @@ public class EnemyAgent : MonoBehaviour
         if (currentState == EnemyStates.WANDERING && agent.remainingDistance < 1)
         {
             FreeRoam(roamRadius);
+        }
+
+        //Timer for random growling and breathing of the enemy
+        if (!SilentTime())
+        {
+            int randomInt = Random.Range(0, passiveAudio.Count);
+
+            audioPlayer.PlayOneShot(passiveAudio[randomInt]);
+
+            float rand = Random.Range(4f, maxSilentTime);
+
+            silentTime = rand;
         }
     }
 
@@ -211,6 +227,16 @@ public class EnemyAgent : MonoBehaviour
             return false;
         }
         agent.speed = 0;
+        return true;
+    }
+
+    private bool SilentTime()
+    {
+        silentTime -= Time.deltaTime;
+        if (silentTime < 0)
+        {
+            return false;
+        }
         return true;
     }
 

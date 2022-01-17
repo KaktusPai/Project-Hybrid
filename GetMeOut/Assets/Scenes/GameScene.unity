@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 13577581}
   - component: {fileID: 13577580}
   - component: {fileID: 13577583}
+  - component: {fileID: 13577584}
   m_Layer: 0
   m_Name: GameController
   m_TagString: GameController
@@ -214,6 +215,18 @@ MonoBehaviour:
   - {fileID: 266068199}
   - {fileID: 751838551}
   - {fileID: 1453038707}
+--- !u!114 &13577584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13577579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 214222c7d06df024b9cec01dad37e8d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &22179322
 GameObject:
   m_ObjectHideFlags: 0
@@ -1262,7 +1275,7 @@ Transform:
   - {fileID: 885751480}
   - {fileID: 1898156943}
   m_Father: {fileID: 328886102}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!65 &129146341
 BoxCollider:
@@ -2429,7 +2442,7 @@ Transform:
   - {fileID: 976301939}
   - {fileID: 1067402820}
   m_Father: {fileID: 1878665479}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!65 &239414791
 BoxCollider:
@@ -2805,7 +2818,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 50
+  MaxDistance: 25
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -7366,7 +7379,7 @@ Transform:
   - {fileID: 1299375744}
   - {fileID: 539016727}
   m_Father: {fileID: 1723730358}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!65 &581109666
 BoxCollider:
@@ -14215,7 +14228,7 @@ Transform:
   - {fileID: 1294127108}
   - {fileID: 1302587437}
   m_Father: {fileID: 1185367924}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!65 &1031628268
 BoxCollider:
@@ -16754,7 +16767,7 @@ Transform:
   - {fileID: 331250541}
   - {fileID: 1091439082}
   m_Father: {fileID: 331144639}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!65 &1221002194
 BoxCollider:
@@ -17646,6 +17659,18 @@ MonoBehaviour:
   environmentalSounds: {fileID: 266068199}
   monsterRoar: {fileID: 8300000, guid: 5dd8a070a2cf06c4d921802852e45804, type: 3}
   metalImpact: {fileID: 8300000, guid: 8650bac434d511b4f90018c68d6f6707, type: 3}
+  passiveAudio:
+  - {fileID: 8300000, guid: 20abba5008d931e4a8bc6cd581442334, type: 3}
+  - {fileID: 8300000, guid: 74b986d2807efb141810df8cdd0b7d82, type: 3}
+  - {fileID: 8300000, guid: 927ba9e5eb3bf3b468c51bef1e2699a7, type: 3}
+  - {fileID: 8300000, guid: 78e6bbb171af7f94283d73c3de6be631, type: 3}
+  - {fileID: 8300000, guid: 70da610d8e882a540afe12bec2ca43cd, type: 3}
+  - {fileID: 8300000, guid: 0ddc7dbb930110148b4033ddd575adba, type: 3}
+  - {fileID: 8300000, guid: 1b97ebf382c9169419fc53910ac2ed77, type: 3}
+  - {fileID: 8300000, guid: 7d1a5f2576da4274aa79ca93a2fd03f4, type: 3}
+  - {fileID: 8300000, guid: b2954d2b074741f42a80d40dd2637419, type: 3}
+  - {fileID: 8300000, guid: 8cc44e29ee7c7e34e8828ccb620596da, type: 3}
+  - {fileID: 8300000, guid: 427419aa9a4c0d44b8687d7b2535eb7c, type: 3}
 --- !u!95 &1269137714
 Animator:
   serializedVersion: 4
@@ -17687,7 +17712,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 50
+  MaxDistance: 25
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -18657,7 +18682,7 @@ Transform:
   - {fileID: 337118136}
   - {fileID: 837671827}
   m_Father: {fileID: 1183053735}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!65 &1308843607
 BoxCollider:
@@ -19148,7 +19173,7 @@ Transform:
   - {fileID: 791899752}
   - {fileID: 516123928}
   m_Father: {fileID: 631285692}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!65 &1328940536
 BoxCollider:
@@ -27903,7 +27928,7 @@ Transform:
   - {fileID: 734640768}
   - {fileID: 1957154355}
   m_Father: {fileID: 2022659178}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!65 &2132279564
 BoxCollider:
