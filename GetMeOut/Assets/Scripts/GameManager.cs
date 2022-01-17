@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] private List<AudioClip> doorSounds = new List<AudioClip>();
     private List<Animator> mechanicalDoors = new List<Animator>();
+    private GameObject[] doorObjects;
     private List<bool> closedDoors = new List<bool>();
+    private EnemyAgent enemy;
 
     // Start is called before the first frame update
     void Start()
     {
-        GameObject[] doorObjects = GameObject.FindGameObjectsWithTag("MetalDoor");
+        enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyAgent>();
+
+        doorObjects = GameObject.FindGameObjectsWithTag("MetalDoor");
         
         if(doorObjects != null)
         {
@@ -40,11 +45,20 @@ public class GameManager : MonoBehaviour
             {
                 mechanicalDoors[ID].Play("Open Door");
                 closedDoors[ID] = false;
+
+                int randomInt = Random.Range(0, doorSounds.Count);
+
+                doorObjects[ID].GetComponent<AudioSource>().PlayOneShot(doorSounds[randomInt]);
             }
             else
             {
                 mechanicalDoors[ID].Play("Close Door");
+                enemy.AlertDoorClosed(doorObjects[ID].transform); //enemy detects that a door has been closed
                 closedDoors[ID] = true;
+
+                int randomInt = Random.Range(0, doorSounds.Count);
+
+                doorObjects[ID].GetComponent<AudioSource>().PlayOneShot(doorSounds[randomInt]);
             }
         }
     }

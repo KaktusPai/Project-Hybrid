@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2193389617681466401}
   - component: {fileID: 2193389617682466529}
   - component: {fileID: 2024456028549847278}
+  - component: {fileID: 4553940425614283213}
   m_Layer: 0
   m_Name: elevatorDoors_wing_B
   m_TagString: Untagged
@@ -97,6 +98,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.123465724, y: 3.904604, z: 0.9079254}
   m_Center: {x: 0.067317195, y: 1.9524832, z: -0.45108947}
+--- !u!208 &4553940425614283213
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2193389617680275489}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.062000003, y: 1.9520001, z: 0.45400003}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.067, y: 1.9520001, z: -0.45100003}
+  m_TimeToStationary: 0.5
 --- !u!1 &2193389617680275491
 GameObject:
   m_ObjectHideFlags: 0
@@ -109,6 +126,7 @@ GameObject:
   - component: {fileID: 2193389617681466403}
   - component: {fileID: 2193389617682466531}
   - component: {fileID: 3770962016557787444}
+  - component: {fileID: 7934175495736386396}
   m_Layer: 0
   m_Name: elevatorDoors_wing_A
   m_TagString: Untagged
@@ -194,6 +212,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.12346573, y: 3.904604, z: 0.90478516}
   m_Center: {x: -0.055849455, y: 1.9524832, z: 0.45239258}
+--- !u!208 &7934175495736386396
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2193389617680275491}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.062000003, y: 1.9520001, z: 0.45200002}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.056, y: 1.9520001, z: 0.45200002}
+  m_TimeToStationary: 0.5
 --- !u!1 &2193389617680275493
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,6 +241,7 @@ GameObject:
   - component: {fileID: 2193389617682466533}
   - component: {fileID: 2193389617678186117}
   - component: {fileID: 2181604009249077703}
+  - component: {fileID: 3844183157439713440}
   m_Layer: 0
   m_Name: mechanical_door
   m_TagString: MetalDoor
@@ -315,3 +350,99 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!82 &3844183157439713440
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2193389617680275493}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 25
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

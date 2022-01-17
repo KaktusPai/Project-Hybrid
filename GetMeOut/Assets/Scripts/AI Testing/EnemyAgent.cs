@@ -20,10 +20,7 @@ public class EnemyAgent : MonoBehaviour
     private EnemyStates currentState = EnemyStates.IDLE;
 
     //Wandering
-    [SerializeField] private List<Transform> waypointsList = new List<Transform>();
-    private int currentWaypoint = 0;
-    private float roamRadius = 20;
-    [SerializeField] private Transform enemyWaypoint;
+    private float roamRadius = 50;
 
     private float wanderSpeed = 2.5f;
     
@@ -49,9 +46,14 @@ public class EnemyAgent : MonoBehaviour
 
     private float chaseSpeed = 5f;
 
+    //Alerted
+    private Vector3 alertedTargetPosition;
+
     //Audio
     private AudioSource audioPlayer;
-    [SerializeField]private AudioClip monsterRoar;
+    [SerializeField] private AudioSource environmentalSounds;
+    [SerializeField] private AudioClip monsterRoar;
+    [SerializeField] private AudioClip metalImpact;
 
     // Start is called before the first frame update
     void Start()
@@ -96,6 +98,12 @@ public class EnemyAgent : MonoBehaviour
             {
                 case EnemyStates.IDLE:
                         ContinueWandering();
+                    break;
+                case EnemyStates.ALERTED:
+                        if(agent.remainingDistance < 1)
+                        {
+                            StartCoroutine(KnockOnDoor());
+                        }
                     break;
                 case EnemyStates.SEARCHING:
                         SearchForPlayer();
@@ -184,6 +192,17 @@ public class EnemyAgent : MonoBehaviour
         currentState = EnemyStates.CHASING;
     }
 
+    private IEnumerator KnockOnDoor()
+    {
+        //start animation, sound and timer
+        pauseTime = 1.75f;
+        agent.speed = 0;
+        enemyAnim.Play("Attacking");
+        environmentalSounds.PlayOneShot(metalImpact);
+        yield return new WaitForSeconds(1.75f); //animation and sound duration
+        LostPlayer();
+    }
+
     private bool PauseTime()
     {
         pauseTime -= Time.deltaTime;
@@ -198,12 +217,6 @@ public class EnemyAgent : MonoBehaviour
     private void StopMovement()
     {
         agent.SetDestination(this.transform.position);
-    }
-
-    private void WaypointWander()
-    {
-        currentWaypoint++;
-        agent.SetDestination(waypointsList[currentWaypoint].position);
     }
 
     private bool SearchTimeLeft()
@@ -270,6 +283,21 @@ public class EnemyAgent : MonoBehaviour
             return false;
         }
     }
+
+    public void AlertDoorClosed(Transform doorPosition)
+    {
+        if(currentState != EnemyStates.ALERTED)
+        {
+            Vector3 direction = transform.position - doorPosition.transform.position;
+            alertedTargetPosition = doorPosition.transform.position + direction.normalized;
+            currentState = EnemyStates.ALERTED;
+            agent.speed = chaseSpeed;
+            enemyAnim.Play("Running");
+            agent.SetDestination(alertedTargetPosition);
+            lastSeenPosition = alertedTargetPosition;
+        }
+    }
+
     #if UNITY_EDITOR // To fix build error - Jesse
     private void OnDrawGizmos()
     {

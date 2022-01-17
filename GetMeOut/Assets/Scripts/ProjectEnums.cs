@@ -7,5 +7,6 @@ public enum EnemyStates
     IDLE,
     WANDERING,
     SEARCHING,
-    CHASING
+    CHASING,
+    ALERTED
 }
