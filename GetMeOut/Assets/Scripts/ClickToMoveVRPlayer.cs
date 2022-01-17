@@ -28,9 +28,10 @@ public class ClickToMoveVRPlayer : MonoBehaviour
         {
             RaycastHit hit;
             var ray = PCPlayerCamera.ScreenPointToRay(Input.mousePosition);
-
-            if (Physics.Raycast(ray, out hit))
+            
+            if(Physics.Raycast(ray, out hit))
             {
+                Debug.Log(ray);
                 Debug.Log("Clicked object with tag " + hit.transform.gameObject.tag);
                 if (hit.transform.gameObject.tag == "Floor" && clickIsOnCooldown == false) 
                 {
@@ -53,4 +54,6 @@ public class ClickToMoveVRPlayer : MonoBehaviour
         clickCooldownBar.value = clickCooldown;
         clickCooldownBar.maxValue = maxClickCooldown;
     }
+
+
 }
