@@ -8,6 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/JesseScene.unity
     guid: 92ce4c366f36e904789c9928cbff4b1f
+  - enabled: 1
+    path: Assets/Scenes/MainMenuScene.unity
+    guid: affd7b4e476baca43ae586c4d37fc170
+  - enabled: 1
+    path: Assets/Scenes/OptionsScene.unity
+    guid: a9bcfecaea36a8c42b3be7a7014d2449
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: 514ba54e3ab7f47438c59afdbb8761e5
   m_configObjects:
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 3c226284d0cd2fa4bb444d01e8e602f9, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7d4f53096d23fab428b5461b71ddb9e9, type: 2}
