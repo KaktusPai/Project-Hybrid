@@ -63,6 +63,7 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+<<<<<<< HEAD
 
 # Packed Addressables
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
@@ -70,3 +71,6 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+=======
+GetMeOut/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+>>>>>>> 45b32f65ce8c4d09c4c6abf0cb3975f5eb8e2da2
