@@ -16,6 +16,8 @@ public class EnemyAgent : MonoBehaviour
     private GameObject player;
     private Animator enemyAnim;
 
+    private GameManager gameManager;
+
     //AI
     private EnemyStates currentState = EnemyStates.IDLE;
 
@@ -62,6 +64,7 @@ public class EnemyAgent : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
         player = GameObject.FindGameObjectWithTag("Player");
         agent = this.GetComponent<NavMeshAgent>();
         audioPlayer = this.GetComponent<AudioSource>();
@@ -182,6 +185,17 @@ public class EnemyAgent : MonoBehaviour
         //Chase the player (set animation, movement speed, etc)
         agent.speed = chaseSpeed;
         agent.SetDestination(player.transform.position);
+
+        float dist = Vector3.Distance(player.transform.position, this.transform.position);
+
+        if (dist < 2.5f)
+        {
+            pauseTime = 10f;
+            agent.SetDestination(this.transform.position);
+            agent.speed = 0;
+            enemyAnim.Play("Attacking");
+            //game over code
+        }
     }
 
     private bool LostThePlayer()
@@ -312,7 +326,7 @@ public class EnemyAgent : MonoBehaviour
 
     public void AlertDoorClosed(Transform doorPosition)
     {
-        if(currentState != EnemyStates.ALERTED)
+        if(currentState != EnemyStates.ALERTED && currentState != EnemyStates.CHASING)
         {
             Vector3 direction = transform.position - doorPosition.transform.position;
             alertedTargetPosition = doorPosition.transform.position + direction.normalized;
