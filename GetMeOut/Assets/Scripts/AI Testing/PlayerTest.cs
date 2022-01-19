@@ -15,10 +15,13 @@ public class PlayerTest : MonoBehaviour
     private float lookSpeed = 3;
     private Vector2 rotation = Vector2.zero;
 
+    private GameManager gameManager;
+
     // Start is called before the first frame update
     void Start()
     {
         playerController = GetComponent<CharacterController>();
+        gameManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
     }
 
     // Update is called once per frame
@@ -37,6 +40,41 @@ public class PlayerTest : MonoBehaviour
             }
             Cursor.visible = !Cursor.visible;
         }
+
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            gameManager.ButtonPressed(0);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            gameManager.ButtonPressed(1);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            gameManager.ButtonPressed(2);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            gameManager.ButtonPressed(3);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            gameManager.ButtonPressed(4);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha6))
+        {
+            gameManager.ButtonPressed(5);
+        }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            gameManager.ActivateDoor(0);
+        }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            gameManager.ActivateDoor(4);
+        }
+
         Move();
         CameraRotation();
     }

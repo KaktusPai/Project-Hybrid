@@ -12,6 +12,9 @@ public class GameManager : MonoBehaviour
     private List<bool> closedDoors = new List<bool>();
     private EnemyAgent enemy;
 
+    private float maxOpenDoorTime = 15f;
+    [SerializeField] private AudioClip doorWarning;
+
     //Endings UI
     [SerializeField] private Image deathBackgroundPanel;
     [SerializeField] private Image deathPanel;
@@ -22,6 +25,14 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI survivedText;
 
     private SceneController sceneManager = new SceneController();
+
+    [SerializeField] private List<MeshRenderer> doorLights = new List<MeshRenderer>();
+    [SerializeField] private Material lightOn;
+    [SerializeField] private Material lightOff;
+    private List<bool> buttonsPressed = new List<bool>();
+    private int numberOfButtons = 6;
+
+    [SerializeField] private SphereCollider exitDoorTrigger;
 
     // Start is called before the first frame update
     void Start()
@@ -45,6 +56,13 @@ public class GameManager : MonoBehaviour
                 closedDoors.Add(false);
             }
         }
+
+        for(int i=0; i<numberOfButtons; i++)
+        {
+            buttonsPressed.Add(false);
+        }
+
+        exitDoorTrigger.enabled = false;
     }
 
     //Open or close door based on ID in list
@@ -72,7 +90,60 @@ public class GameManager : MonoBehaviour
                 int randomInt = Random.Range(0, doorSounds.Count);
 
                 doorObjects[ID].GetComponent<AudioSource>().PlayOneShot(doorSounds[randomInt]);
+
+                StartCoroutine(DeactivateDoor(ID));
             }
+        }
+    }
+
+    private IEnumerator DeactivateDoor(int ID)
+    {
+        yield return new WaitForSeconds(maxOpenDoorTime/3);
+        doorObjects[ID].GetComponent<AudioSource>().PlayOneShot(doorWarning);
+        yield return new WaitForSeconds(maxOpenDoorTime/3);
+        doorObjects[ID].GetComponent<AudioSource>().PlayOneShot(doorWarning);
+        yield return new WaitForSeconds(maxOpenDoorTime/3);
+        ActivateDoor(ID);
+    }
+
+    public void ButtonPressed(int ID)
+    {
+        if (buttonsPressed[ID])
+        {
+            buttonsPressed[ID] = false;
+        }
+        else
+        {
+            buttonsPressed[ID] = true;
+        }
+
+        UpdateButtonColors();
+    }
+
+    private void UpdateButtonColors()
+    {
+        int amountOfLightsOn = 0;
+
+        for(int i = 0; i < numberOfButtons; i++)
+        {
+            if (buttonsPressed[i])
+            {
+                doorLights[i].material = lightOn;
+                amountOfLightsOn++;
+            }
+            else
+            {
+                doorLights[i].material = lightOff;
+            }
+        }
+
+        if(amountOfLightsOn == numberOfButtons)
+        {
+            exitDoorTrigger.enabled = true;
+        }
+        else if(exitDoorTrigger.enabled)
+        {
+            exitDoorTrigger.enabled = false;
         }
     }
 

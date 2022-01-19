@@ -23,7 +23,7 @@ public class SceneController : MonoBehaviour
 
     public void loadGameScene()
     {
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene(2);
     }
 
     public void exitGame()
@@ -33,11 +33,11 @@ public class SceneController : MonoBehaviour
 
     public void loadOptionsScene()
     {
-        SceneManager.LoadScene("OptionsScene");
+        SceneManager.LoadScene(1);
     }
 
     public void loadMainScene()
     {
-        SceneManager.LoadScene("MainMenuScene");
+        SceneManager.LoadScene(0);
     }
 }

@@ -40,12 +40,12 @@ public class optionsManager : MonoBehaviour
     public void saveChanges()
     {
         fileManager.UploadSaveValues(currentAudioMusic, currentAudio);
-        SceneManager.LoadScene("MainMenuScene");
+        SceneManager.LoadScene(0);
     }
 
     public void discardChanges()
     {
-        SceneManager.LoadScene("MainMenuScene");
+        SceneManager.LoadScene(0);
     }
 
     public void AudioValueChangedMusic()

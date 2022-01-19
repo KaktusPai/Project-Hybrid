@@ -6,10 +6,6 @@ using UnityEngine.AI;
 using UnityEditor;
 #endif
 
-//TODO:
-//Polish enemy a bit more
-//Discuss about functionality and features.
-
 public class EnemyAgent : MonoBehaviour
 {
     private NavMeshAgent agent;
@@ -195,6 +191,7 @@ public class EnemyAgent : MonoBehaviour
             agent.speed = 0;
             enemyAnim.Play("Attacking");
             //game over code
+            gameManager.PlayerDied();
         }
     }
 

@@ -5,18 +5,24 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/JesseScene.unity
+  - enabled: 0
+    path: Assets/Scenes/UnusedInFinal/JesseScene.unity
     guid: 92ce4c366f36e904789c9928cbff4b1f
   - enabled: 1
-    path: Assets/Scenes/MainMenuScene.unity
+    path: Assets/Scenes/Menu.unity
+    guid: 9fa5b15cc528add44abb1ea75474a101
+  - enabled: 0
+    path: Assets/Scenes/UnusedInFinal/MainMenuScene.unity
     guid: affd7b4e476baca43ae586c4d37fc170
   - enabled: 1
     path: Assets/Scenes/OptionsScene.unity
     guid: a9bcfecaea36a8c42b3be7a7014d2449
-  - enabled: 1
-    path: Assets/Scenes/GameScene.unity
+  - enabled: 0
+    path: Assets/Scenes/UnusedInFinal/GameScene.unity
     guid: 514ba54e3ab7f47438c59afdbb8761e5
+  - enabled: 1
+    path: Assets/Scenes/Map.unity
+    guid: 2f961f4b737e29142a13c213f707a13d
   m_configObjects:
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: d7cfd3efd79511947b88b6b4b0fdb7c8, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3478a1972f7571c4da20fc642fde5477, type: 2}

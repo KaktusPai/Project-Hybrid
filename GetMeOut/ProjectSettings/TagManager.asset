@@ -9,6 +9,7 @@ TagManager:
   - Floor
   - MetalDoor
   - Enemy
+  - ExitDoor
   layers:
   - Default
   - TransparentFX
