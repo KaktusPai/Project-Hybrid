@@ -31,13 +31,12 @@ public class ClickToMoveVRPlayer : MonoBehaviour
             
             if(Physics.Raycast(ray, out hit))
             {
-                Debug.Log(ray);
                 Debug.Log("Clicked object with tag " + hit.transform.gameObject.tag);
                 if (hit.transform.gameObject.tag == "Floor" && clickIsOnCooldown == false) 
                 {
                     clickIsOnCooldown = true;
                     PCPlayerWaypoint.position = hit.point;
-                    Debug.Log(hit.point);
+                    Debug.Log("Clicked floor");
                 }
             }
         }
