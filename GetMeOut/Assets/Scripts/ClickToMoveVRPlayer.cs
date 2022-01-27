@@ -12,6 +12,7 @@ public class ClickToMoveVRPlayer : MonoBehaviour
     [SerializeField] private bool clickIsOnCooldown = false;
     public Transform PCPlayerWaypoint;
     public GameObject overlayCanvas;
+    public InfoHints info;
     private void Start()
     {
         clickCooldown = maxClickCooldown;
@@ -24,7 +25,7 @@ public class ClickToMoveVRPlayer : MonoBehaviour
             overlayCanvas.SetActive(!overlayCanvas.activeSelf);
         }
         // Clicking logic
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !info.panelActive)
         {
             RaycastHit hit;
             var ray = PCPlayerCamera.ScreenPointToRay(Input.mousePosition);

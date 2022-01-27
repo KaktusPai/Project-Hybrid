@@ -36,6 +36,7 @@ public class GameManager : MonoBehaviour
     public bool playerAimingAtButton;
     public bool surviveOnce = false;
     public bool playerNextToDoor = false;
+    public TMP_Text lightText;
 
     // Start is called before the first frame update
     void Start()
@@ -65,6 +66,7 @@ public class GameManager : MonoBehaviour
             buttonsPressed.Add(false);
         }
         exitDoorTrigger.enabled = false;
+        lightText.text = "Puzzels solved: 0";
     }
 
     //Open or close door based on ID in list
@@ -150,6 +152,8 @@ public class GameManager : MonoBehaviour
         {
             exitDoorTrigger.enabled = false;
         }
+
+        lightText.text = "Puzzels solved: " + amountOfLightsOn;
     }
 
     public void PlayerDied()
@@ -208,6 +212,17 @@ public class GameManager : MonoBehaviour
             Debug.Log("YEEEE");
             PlayerSurvived();
             surviveOnce = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.L)) 
+        {
+            for(int i = 0; i < buttonsPressed.Count; i++) 
+            {
+                if (buttonsPressed[i] == false) 
+                {
+                    ButtonPressed(i);
+                }
+            }
         }
     }
     private bool IsPuzzleComplete() 

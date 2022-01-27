@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MapPuzzleVR.unity
     guid: 00e2134acaefea74a9a742561883f515
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Map.unity
     guid: 2f961f4b737e29142a13c213f707a13d
   m_configObjects:

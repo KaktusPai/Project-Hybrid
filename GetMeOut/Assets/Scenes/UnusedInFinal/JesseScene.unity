@@ -6729,7 +6729,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!136 &1657938061
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7283,6 +7283,7 @@ MonoBehaviour:
   clickIsOnCooldown: 0
   PCPlayerWaypoint: {fileID: 1879292692}
   overlayCanvas: {fileID: 1773319923}
+  info: {fileID: 0}
 --- !u!4 &1761819967
 Transform:
   m_ObjectHideFlags: 0
