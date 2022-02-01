@@ -8,8 +8,8 @@ using UnityEditor;
 
 public class EnemyAgent : MonoBehaviour
 {
-    private NavMeshAgent agent;
-    private GameObject player;
+    [SerializeField] private NavMeshAgent agent;
+    [SerializeField] private GameObject player;
     private Animator enemyAnim;
 
     private GameManager gameManager;
@@ -18,31 +18,31 @@ public class EnemyAgent : MonoBehaviour
     private EnemyStates currentState = EnemyStates.IDLE;
 
     //Wandering
-    private float roamRadius = 50;
+    [SerializeField] private float roamRadius = 50;
 
-    private float wanderSpeed = 2.5f;
-    
+    [SerializeField] private float wanderSpeed = 2.5f;
+
     //Detection
-    private float maxDetectionRange = 20;
-    private float enemyFov = 45;
-    private float enemyWanderFov = 45;
+    [SerializeField] private float maxDetectionRange = 20;
+    [SerializeField] private float enemyFov = 45;
+    [SerializeField] private float enemyWanderFov = 45;
 
     //Chasing
-    private float maxSearchTime = 5f;
-    private float defaultPauseTime = 2f;
-    private float defaultLostSightTIme = 5f;
+    [SerializeField] private float maxSearchTime = 5f;
+    [SerializeField] private float defaultPauseTime = 2f;
+    [SerializeField] private float defaultLostSightTIme = 5f;
 
-    private float searchTimer = 0f;
-    private float pauseTime = 0f;
-    private float lostSightTime = 0f;
+    [SerializeField] private float searchTimer = 0f;
+    [SerializeField] private float pauseTime = 0f;
+    [SerializeField] private float lostSightTime = 0f;
 
-    private float enemtChaseFov = 70;
+    [SerializeField] private float enemtChaseFov = 70;
 
-    private Vector3 lastSeenPosition;
+    [SerializeField] private Vector3 lastSeenPosition;
 
-    private float searchRadius = 10f;
+    [SerializeField] private float searchRadius = 10f;
 
-    private float chaseSpeed = 5f;
+    [SerializeField] public float chaseSpeed = 5f;
 
     //Alerted
     private Vector3 alertedTargetPosition;
@@ -77,6 +77,7 @@ public class EnemyAgent : MonoBehaviour
         if (PauseTime()) return;
 
         Debug.Log(currentState);
+        player = GameObject.FindGameObjectWithTag("Player");
 
         //if the player is spotted, chase the player
         if (IsPlayerSeen())

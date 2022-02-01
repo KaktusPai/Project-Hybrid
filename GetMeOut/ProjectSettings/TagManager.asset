@@ -10,6 +10,7 @@ TagManager:
   - MetalDoor
   - Enemy
   - ExitDoor
+  - WorldSpaceButton
   layers:
   - Default
   - TransparentFX

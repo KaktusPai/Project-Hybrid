@@ -13,13 +13,12 @@ public class PlayerAgent : MonoBehaviour
     public Transform target;
     void Start()
     {
-        
+        agent.speed = moveSpeed;
     }
 
     // Update is called once per frame
     void Update()
     {
-        agent.speed = moveSpeed;
         agent.SetDestination(target.position);
     }
 }

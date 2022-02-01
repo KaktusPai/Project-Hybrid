@@ -8,8 +8,8 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private List<AudioClip> doorSounds = new List<AudioClip>();
     private List<Animator> mechanicalDoors = new List<Animator>();
-    private GameObject[] doorObjects;
-    private List<bool> closedDoors = new List<bool>();
+    [SerializeField] private GameObject[] doorObjects;
+    [SerializeField] private List<bool> closedDoors = new List<bool>();
     private EnemyAgent enemy;
 
     private float maxOpenDoorTime = 15f;
@@ -29,18 +29,22 @@ public class GameManager : MonoBehaviour
     [SerializeField] private List<MeshRenderer> doorLights = new List<MeshRenderer>();
     [SerializeField] private Material lightOn;
     [SerializeField] private Material lightOff;
-    private List<bool> buttonsPressed = new List<bool>();
-    private int numberOfButtons = 6;
+    [SerializeField] private List<bool> buttonsPressed = new List<bool>();
+    [SerializeField] private int numberOfButtons = 6;
 
     [SerializeField] private SphereCollider exitDoorTrigger;
+    public bool playerAimingAtButton;
+    public bool surviveOnce = false;
+    public bool playerNextToDoor = false;
+    public TMP_Text lightText;
 
     // Start is called before the first frame update
     void Start()
     {
         enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyAgent>();
-
+        //Debug.Log(numberOfButtons);
         doorObjects = GameObject.FindGameObjectsWithTag("MetalDoor");
-        
+
         if(doorObjects != null)
         {
             foreach(GameObject door in doorObjects)
@@ -56,13 +60,13 @@ public class GameManager : MonoBehaviour
                 closedDoors.Add(false);
             }
         }
-
-        for(int i=0; i<numberOfButtons; i++)
+        
+        for(int i = 0; i < numberOfButtons; i++)
         {
             buttonsPressed.Add(false);
         }
-
         exitDoorTrigger.enabled = false;
+        lightText.text = "Puzzels solved: 0";
     }
 
     //Open or close door based on ID in list
@@ -80,6 +84,7 @@ public class GameManager : MonoBehaviour
                 int randomInt = Random.Range(0, doorSounds.Count);
 
                 doorObjects[ID].GetComponent<AudioSource>().PlayOneShot(doorSounds[randomInt]);
+                Debug.Log("Opened door: " + doorObjects[ID]);
             }
             else
             {
@@ -92,6 +97,7 @@ public class GameManager : MonoBehaviour
                 doorObjects[ID].GetComponent<AudioSource>().PlayOneShot(doorSounds[randomInt]);
 
                 StartCoroutine(DeactivateDoor(ID));
+                Debug.Log("Closed door: " + doorObjects[ID]);
             }
         }
     }
@@ -117,6 +123,7 @@ public class GameManager : MonoBehaviour
             buttonsPressed[ID] = true;
         }
 
+        Debug.Log("Lamp" + ID + "=" + buttonsPressed[ID]);
         UpdateButtonColors();
     }
 
@@ -145,6 +152,8 @@ public class GameManager : MonoBehaviour
         {
             exitDoorTrigger.enabled = false;
         }
+
+        lightText.text = "Puzzels solved: " + amountOfLightsOn;
     }
 
     public void PlayerDied()
@@ -196,5 +205,35 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(2);
         sceneManager.loadMainScene();
     }
+    void Update() 
+    {
+        if (IsPuzzleComplete() == true && playerNextToDoor == true && !surviveOnce) 
+        {
+            Debug.Log("YEEEE");
+            PlayerSurvived();
+            surviveOnce = true;
+        }
 
+        if (Input.GetKeyDown(KeyCode.L)) 
+        {
+            for(int i = 0; i < buttonsPressed.Count; i++) 
+            {
+                if (buttonsPressed[i] == false) 
+                {
+                    ButtonPressed(i);
+                }
+            }
+        }
+    }
+    private bool IsPuzzleComplete() 
+    {
+    for(int i = 0; i < buttonsPressed.Count; ++i) 
+        {
+            if (buttonsPressed[i] == false) 
+            {
+                return false;
+            }
+        }
+        return true;
+    }
 }
