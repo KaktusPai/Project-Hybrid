@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Valve.VR; 
+using Valve.VR.InteractionSystem; 
 
 public class PressPuzzleButton : MonoBehaviour 
 {
@@ -20,9 +22,10 @@ public class PressPuzzleButton : MonoBehaviour
             {
                 //Debug.Log("Got " + hit.transform.gameObject.name);
                 hit.transform.gameObject.GetComponent<PuzzleButton>().AimingAt();
-                if(Input.GetButtonDown("Jump")) {
+                if(Input.GetButtonDown("Jump"))
+                {
                     hit.transform.gameObject.GetComponent<PuzzleButton>().TogglePress();
-            }
+                }
                 gm.playerAimingAtButton = true;
             } else 
             {
