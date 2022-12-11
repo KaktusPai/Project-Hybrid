@@ -12,13 +12,14 @@ public class PressPuzzleButton : MonoBehaviour
     void Update() 
     {
         RaycastHit hit;
-        var ray = VRCamera.transform.position;
+        Ray forwardRay = new Ray(VRCamera.transform.position, VRCamera.transform.forward);
+        Debug.DrawRay(VRCamera.transform.position, VRCamera.transform.forward, Color.green);
 
-        if(Physics.Raycast(ray, transform.forward, out hit)) 
+        if(Physics.Raycast(forwardRay, out hit, 25f))
         {
             //Debug.Log(hit.transform.gameObject.tag + "  " + hit.distance);
-            Debug.DrawRay(ray, transform.forward);
-            if(hit.transform.gameObject.tag == "WorldSpaceButton" && hit.distance <= minimalDistance) 
+            Debug.DrawRay(VRCamera.transform.position, VRCamera.transform.forward, Color.green);
+            if(hit.transform.gameObject.tag == "WorldSpaceButton" && hit.distance <= minimalDistance)
             {
                 //Debug.Log("Got " + hit.transform.gameObject.name);
                 hit.transform.gameObject.GetComponent<PuzzleButton>().AimingAt();
@@ -27,10 +28,10 @@ public class PressPuzzleButton : MonoBehaviour
                     hit.transform.gameObject.GetComponent<PuzzleButton>().TogglePress();
                 }
                 gm.playerAimingAtButton = true;
-            } else 
-            {
-                gm.playerAimingAtButton = false;
             }
+        } else
+        {
+            gm.playerAimingAtButton = false;
         }
     }
 }
